@@ -53,6 +53,33 @@
                             <span class="glyphicon glyphicon-eye-open"></span>
                         </a>
                     </li>
+                    <li>
+                        <a href="#"
+                           class="nav-btn"
+                           data-toggle="tooltip"
+                           data-placement="bottom"
+                           title="Imagenes y Placas">
+                            <span class="glyphicon glyphicon-film"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="nav-btn"
+                           data-toggle="tooltip"
+                           data-placement="bottom"
+                           title="Sus turnos">
+                            <span class="glyphicon glyphicon-time"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="nav-btn"
+                           data-toggle="tooltip"
+                           data-placement="bottom"
+                           title="Historia Clínica">
+                            <span class="glyphicon glyphicon-file"></span>
+                        </a>
+                    </li>
 	          	</ul>
 	          	<ul class="nav navbar-nav navbar-pull-right">
 
