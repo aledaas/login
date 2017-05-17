@@ -12,10 +12,11 @@ $page = isset($_GET['p']) ? $_GET['p'] : 'account';
 	<div class="col-md-2">
 		<ul class="nav nav-pills nav-stacked">
 			<li <?php echo $page == 'account' ? 'class="active"':'' ?>><a href="?p=account"><?php echo _e('main.account') ?></a></li>
-			<li <?php echo $page == 'profile' ? 'class="active"':'' ?>><a href="?p=profile"><?php echo _e('main.profile') ?></a></li>
+			<li <?php echo $page == 'ficha' ? 'class="active"':'' ?>><a href="?p=ficha">Ficha paciente</a></li>
 			<li <?php echo $page == 'password' ? 'class="active"':'' ?>><a href="?p=password"><?php echo _e('main.password') ?></a></li>
-			<li <?php echo $page == 'messages' ? 'class="active"':'' ?>><a href="?p=messages"><?php echo _e('main.messages') ?></a></li>
-			<li <?php echo $page == 'connect' ? 'class="active"':'' ?>><a href="?p=connect"><?php echo _e('main.connect') ?></a></li>
+			<!--<li <?php //echo $page == 'messages' ? 'class="active"':'' ?>><a href="?p=messages"><?php //echo _e('main.messages') ?></a></li>
+			<li <?php // echo $page == 'connect' ? 'class="active"':'' ?>><a href="?p=connect"><?php //echo _e('main.connect') ?></a></li>
+			-->
 		</ul>
 	</div>
 	<div class="col-md-6">
@@ -39,15 +40,15 @@ switch ($page) {
 		        <input type="text" name="email" id="email" value="<?php echo Auth::user()->email ?>" class="form-control">
 		    </div>
 
-		    <div class="form-group">
+		 <!--   <div class="form-group">
 		        <label for="locale"><?php _e('main.language') ?></label>
 		        <select name="locale" id="locale" class="form-control">
 		        <?php $locales = Config::get('app.locales'); ?>
-	        	<?php foreach ($locales as $key => $lang) : ?>
-					<option value="<?php echo $key ?>" <?php echo Auth::user()->locale == $key ? 'selected' : '' ?>><?php echo $lang ?></option>
-				<?php endforeach ?>
+	        	<?php //foreach ($locales as $key => $lang) : ?>
+					<option value="<?php //echo $key ?>" <?php //echo Auth::user()->locale == $key ? 'selected' : '' ?>><?php //echo $lang ?></option>
+				<?php //endforeach ?>
 				</select>
-		    </div>
+		    </div>-->
 
             <div class="form-group">
 		    	<button type="submit" name="submit" class="btn btn-primary"><?php _e('main.save_changes') ?></button>
@@ -85,12 +86,12 @@ switch ($page) {
 
 
 	// Profile
-	case 'profile':
+	case 'ficha':
 		$user = User::find(Auth::user()->id);
 		?>
 		<link href="<?php echo asset_url('css/vendor/imgpicker.css') ?>" rel="stylesheet">
 		
-		<h3 class="page-header"><?php echo _e('main.profile') ?></h3>
+		<h3 class="page-header">Ficha del paciente</h3>
 
 		<form action="settingsProfile" method="POST" class="ajax-form">
 			<div class="avatar-container form-group">

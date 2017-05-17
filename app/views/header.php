@@ -44,9 +44,15 @@
         	</div>
         	<div class="navbar-collapse collapse">
 	          	<ul class="nav navbar-nav">
-	            	<!--<li>
-      					<a href="comments.php">Comments</a>
-      				</li>-->
+                    <li>
+                        <a href="settings.php?p=ficha"
+                           class="nav-btn"
+                           data-toggle="tooltip"
+                           data-placement="bottom"
+                           title="Ficha Paciente">
+                            <span class="glyphicon glyphicon-eye-open"></span>
+                        </a>
+                    </li>
 	          	</ul>
 	          	<ul class="nav navbar-nav navbar-pull-right">
 
@@ -59,12 +65,12 @@
 	          				</li>
 	          			<?php endif ?>
 
-	          			<li>
+	          			<!--<li>
 	          				<a href="#" class="nav-btn pm-open-modal" data-toggle="tooltip" data-placement="bottom" title="<?php _e('main.pms'); ?>">
 	          					<span class="label label-danger pm-notification"></span>
 	          					<span class="glyphicon glyphicon-envelope"></span>
 	          				</a>
-	          			</li>
+	          			</li>-->
 
 	          			<li class="dropdown ">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
@@ -72,7 +78,7 @@
 								<img src="<?php echo Auth::user()->avatar ?>" class="avatar"> <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="profile.php?u=<?php echo Auth::user()->id ?>"><?php _e('main.my_profile'); ?></a></li>
-								<li><a href="settings.php"><?php _e('main.settings'); ?></a></li>
+								<!--<li><a href="settings.php"><?php _e('main.settings'); ?></a></li>-->
 								<li><a href="logout.php"><?php _e('main.logout'); ?></a></li>
 							</ul>
 						</li>
