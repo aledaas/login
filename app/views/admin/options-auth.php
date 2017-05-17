@@ -25,7 +25,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
 			if (!empty($v1) && !empty($v2)) $providers[$v1] = $v2;
 		}
 	}
-	if (empty($providers)) $providers['en'] = 'English';
+	if (empty($providers)) $providers['es'] = 'English';
 
 	Config::set('auth.providers', $providers);
 

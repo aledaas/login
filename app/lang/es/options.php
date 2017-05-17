@@ -18,10 +18,10 @@ return array(
 		'locale_help' => ' The default locale that will be used by the translation. ',
 
 		'locales' => 'Locales Names',
-		'locales_help' => 'The available locales for translation. <br> Format: <code>key:value</code> separated with comma (,). Eg: <code>en:English, de:Deutsch</code>.',
+		'locales_help' => 'The available locales for translation. <br> Format: <code>key:value</code> separated with comma (,). Eg: <code>es:English, de:Deutsch</code>.',
 
 		'timezone' => 'Timezone',
-		'timezone_help' => 'The default timezone for your website. (<a href="http://www.php.net/manual/en/timezones.php" target="_blank">?</a>)',
+		'timezone_help' => 'The default timezone for your website. (<a href="http://www.php.net/manual/es/timezones.php" target="_blank">?</a>)',
 
 		'csrf' => 'CSRF Prevention',
 		'csrf_help' => 'Prevents the website from CSRF attacks.',

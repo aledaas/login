@@ -54,7 +54,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
 			if (!empty($v1) && !empty($v2)) $locales[$v1] = $v2;
 		}
 	}
-	if (empty($locales)) $locales['en'] = 'English';
+	if (empty($locales)) $locales['es'] = 'English';
 
 	Config::set('app.locales', $locales);
 

@@ -23,7 +23,7 @@ class TranslationServiceProvider extends ServiceProvider {
 			$path = $app['path'].'/lang';
 			$locale = $app['config']['app.locale'];
 
-			return new Translator($path, $locale, 'en');
+			return new Translator($path, $locale, 'es');
 		});
 	}
 

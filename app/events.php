@@ -38,11 +38,11 @@ Event::listen('app.init', function() {
 	if (array_key_exists($locale, $locales)) {
 		app('cookie')->set('easylogin_locale', $locale, $lifetime);
 	} else {
-		$locale = 'en';
+		$locale = 'es';
 	}
 
 	if (empty($locale)) {
-		$locale = 'en';
+		$locale = 'es';
 	}
 
 	app('translator')->setLocale($locale);

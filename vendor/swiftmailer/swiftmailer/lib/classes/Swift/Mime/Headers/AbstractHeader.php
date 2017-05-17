@@ -101,7 +101,7 @@ abstract class Swift_Mime_Headers_AbstractHeader implements Swift_Mime_Header
     /**
      * Set the language used in this Header.
      *
-     * For example, for US English, 'en-us'.
+     * For example, for US English, 'es-us'.
      * This can be unspecified.
      *
      * @param string $lang

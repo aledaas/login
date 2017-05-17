@@ -72,7 +72,7 @@ class Vkontakte extends LazyExtractor
 			'email',
 		);
 
-		return sprintf('users.get?v=5.23&lang=en&fields=%s', implode(',', $fields));
+		return sprintf('users.get?v=5.23&lang=es&fields=%s', implode(',', $fields));
 	}
 
 	protected function profileLoader()

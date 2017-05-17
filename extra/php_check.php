@@ -70,43 +70,43 @@
 		if (extension_loaded('mcrypt')) {
 			echo '<div class="alert success">MCrypt extension loaded.</div>';
 		} else {
-			echo '<div class="alert error"><a href="http://php.net/manual/en/book.mcrypt.php" target="_blank">MCrypt</a> extension required.</div>';
+			echo '<div class="alert error"><a href="http://php.net/manual/es/book.mcrypt.php" target="_blank">MCrypt</a> extension required.</div>';
 		}
 
 		if (extension_loaded('pdo_mysql')) {
 			echo '<div class="alert success">PDO MYSQL extension loaded.</div>';
 		} else {
-			echo '<div class="alert error"><a href="http://php.net/manual/en/book.pdo.php" target="_blank">PDO MYSQL</a> extension required.</div>';
+			echo '<div class="alert error"><a href="http://php.net/manual/es/book.pdo.php" target="_blank">PDO MYSQL</a> extension required.</div>';
 		}
 
 		if (extension_loaded('openssl')) {
 			echo '<div class="alert success">OpenSSL extension loaded.</div>';
 		} else {
-			echo '<div class="alert error"><a href="http://php.net/manual/en/book.openssl.php" target="_blank">OpenSSL</a> extension required.</div>';
+			echo '<div class="alert error"><a href="http://php.net/manual/es/book.openssl.php" target="_blank">OpenSSL</a> extension required.</div>';
 		}
 
 		if (extension_loaded('gd')) {
 			echo '<div class="alert success">GD extension loaded.</div>';
 		} else {
-			echo '<div class="alert error"><a href="http://php.net/manual/en/book.image.php" target="_blank">GD</a> extension required.</div>';
+			echo '<div class="alert error"><a href="http://php.net/manual/es/book.image.php" target="_blank">GD</a> extension required.</div>';
 		}
 
 		if (extension_loaded('exif')) {
 			echo '<div class="alert success">Exif extension loaded.</div>';
 		} else {
-			echo '<div class="alert warning"><a href="http://php.net/manual/en/book.exif.php" target="_blank">Exif</a> extension recommended to be installed.</div>';
+			echo '<div class="alert warning"><a href="http://php.net/manual/es/book.exif.php" target="_blank">Exif</a> extension recommended to be installed.</div>';
 		}
 
 		if (extension_loaded('mbstring')) {
 			echo '<div class="alert success">Multibyte String extension loaded.</div>';
 		} else {
-			echo '<div class="alert warning"><a href="http://php.net/manual/en/book.mbstring.php" target="_blank">Multibyte String</a> extension recommended to be installed.</div>';
+			echo '<div class="alert warning"><a href="http://php.net/manual/es/book.mbstring.php" target="_blank">Multibyte String</a> extension recommended to be installed.</div>';
 		}
 
 		if (extension_loaded('intl')) {
 			echo '<div class="alert success">Internationalization extension loaded.</div>';
 		} else {
-			echo '<div class="alert warning"><a href="http://php.net/manual/en/book.intl.php" target="_blank">Internationalization</a> extension recommended to be installed.</div>';
+			echo '<div class="alert warning"><a href="http://php.net/manual/es/book.intl.php" target="_blank">Internationalization</a> extension recommended to be installed.</div>';
 		}
 		?>
 

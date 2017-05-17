@@ -112,7 +112,7 @@ interface Swift_Mime_Message extends Swift_Mime_MimeEntity
     public function setFrom($addresses, $name = null);
 
     /**
-     * Get the From address(es) of this message.
+     * Get the From address(_old) of this message.
      *
      * This method always returns an associative array where the keys are the
      * addresses.
@@ -122,7 +122,7 @@ interface Swift_Mime_Message extends Swift_Mime_MimeEntity
     public function getFrom();
 
     /**
-     * Set the Reply-To address(es).
+     * Set the Reply-To address(_old).
      *
      * Any replies from the receiver will be sent to this address.
      *
@@ -149,7 +149,7 @@ interface Swift_Mime_Message extends Swift_Mime_MimeEntity
     public function getReplyTo();
 
     /**
-     * Set the To address(es).
+     * Set the To address(_old).
      *
      * Recipients set in this field will receive a copy of this message.
      *
@@ -174,7 +174,7 @@ interface Swift_Mime_Message extends Swift_Mime_MimeEntity
     public function getTo();
 
     /**
-     * Set the Cc address(es).
+     * Set the Cc address(_old).
      *
      * Recipients set in this field will receive a 'carbon-copy' of this message.
      *
@@ -196,7 +196,7 @@ interface Swift_Mime_Message extends Swift_Mime_MimeEntity
     public function getCc();
 
     /**
-     * Set the Bcc address(es).
+     * Set the Bcc address(_old).
      *
      * Recipients set in this field will receive a 'blind-carbon-copy' of this
      * message.
