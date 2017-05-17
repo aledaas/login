@@ -43,6 +43,7 @@
           		<a href="<?php echo App::url() ?>" class="navbar-brand">T  <sup>URNOS</sup></a>
         	</div>
         	<div class="navbar-collapse collapse">
+                <?php if (Auth::check()): ?>
 	          	<ul class="nav navbar-nav">
                     <li>
                         <a href="settings.php?p=ficha"
@@ -80,6 +81,7 @@
                             <span class="glyphicon glyphicon-file"></span>
                         </a>
                     </li>
+                    <?php endif ?>
 	          	</ul>
 	          	<ul class="nav navbar-nav navbar-pull-right">
 

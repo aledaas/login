@@ -24,8 +24,7 @@ return array(
 	|
 	*/
 
-	//'url' => 'http://localhost/login',
-	'url' => 'http://54.86.17.52/login',
+	'url' => 'http://localhost/login',
 
 
 	/*
@@ -62,11 +61,11 @@ return array(
 	|
 	*/
 
-	'locale' => 'es',
+	'locale' => '_old',
 
 	'locales' => array(
-		'en' => 'English',
-        'es' => 'Spanish',
+		'es' => 'English',
+        '_old' => 'Spanish',
 	),
 
 	/*
