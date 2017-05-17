@@ -1,0 +1,7 @@
+EasyLogin Pro 1.2.11
+
+Release Notes
+http://docs.hazzardweb.com/easylogin-pro/master/changelog
+
+Upgrade Guide
+http://docs.hazzardweb.com/easylogin-pro/master/upgrade
