@@ -163,10 +163,10 @@ if (isset($_GET['id'])){
                         <a href="#tab1" id="tab1active" data-toggle="tab">Datos Personales</a>
                     </li>
                     <li>
-                        <a href="#tab2" id="tab2active" data-toggle="tab">Localización</a>
+                        <a href="#tab2" id="tab2active" data-toggle="tab">Localizaci&oacuten</a>
                     </li>
                     <li>
-                        <a href="#tab3" id="tab3active" data-toggle="tab">Clínicos</a>
+                        <a href="#tab3" id="tab3active" data-toggle="tab">Cl&iacutenicos</a>
                     </li>
 			    </ul>
 
