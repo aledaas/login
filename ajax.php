@@ -24,6 +24,20 @@ if (Config::get('app.csrf') && function_exists('getallheaders')) {
 	}
 }
 
+function ajax_get_especialidades(){
+    if (!Auth::userCan('list_users')) exit;
+    $EspecialidadesTable = Especialidades::getTable();
+    $columns = array(
+        array('db' => "{$EspecialidadesTable}.id",     'dt' => 0, 'as' => 'id'),
+        array('db' => "id_padre",     'dt' => 1),
+        array('db' => "nombre",     'dt' => 2),
+    );
+    $query = Especialidades::where( "{$EspecialidadesTable}.id", '>', "0");
+    $dt = new Hazzard\Support\DataTables($_GET, $columns, $query);
+    echo json_encode($dt->get());
+}
+
+
 // Login
 function ajax_login()
 {
@@ -772,6 +786,8 @@ function ajax_get_users()
 
 	echo json_encode($dt->get($usersTable.'.id'));
 }
+
+
 
 // Get messages for DataTables (admin)
 function ajax_get_messages()

@@ -21,13 +21,13 @@ function page_restricted() {
 	<link href="<?php echo asset_url('css/vendor/bootstrap.min.css') ?>" rel="stylesheet">
 	<link href="<?php echo asset_url('css/bootstrap-custom.css') ?>" rel="stylesheet">
 	<link href="<?php echo asset_url('css/admin.css') ?>" rel="stylesheet">
-	<!-- <link href="<?php echo asset_url('css/flat.css') ?>" rel="stylesheet"> -->
-	
+
 	<?php $color = Config::get('app.color_scheme'); ?>
 	<link href="<?php echo asset_url("css/colors/{$color}.css") ?>" rel="stylesheet">
 	
 	<script src="<?php echo asset_url("js/vendor/jquery-1.11.1.min.js") ?>"></script>
 	<script src="<?php echo asset_url("js/vendor/bootstrap.min.js") ?>"></script>
+    <script src="<?php echo asset_url("js/vendor/bootstrap-popover.js") ?>"></script>
 	<script src="<?php echo asset_url('js/easylogin.js') ?>"></script>
 	<script src="<?php echo asset_url("js/admin.js") ?>"></script>
 	<script>
@@ -56,7 +56,22 @@ function page_restricted() {
 	            	<li class="<?php echo active_menu('dashboard') ?>">
 	            		<a href="?page=dashboard"><span class="glyphicon glyphicon-home"></span> <?php _e('admin.dashboard') ?></a>
 	            	</li>
-	            	
+                    <li class="">
+                        <?php if (Auth::userCan('list_users') || Auth::userCan('add_users') || Auth::userCan('manage_roles')): ?>
+                            <li class="dropdown <?php echo active_menu('config|config-new|config-edit') ?>">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                                    <span class="glyphicon glyphicon-th"></span> General <b class="caret"></b>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="?page=config">Médicos</a></li>
+                                    <li><a href="?page=especialidades">Especialidades</a></li>
+                                    <li><a href="?page=categorias">Obras Sociales</a></li>
+                                   <!-- <li><a href="?page=publicidades">Publicidades</a></li>
+                                    <li><a href="?page=productos_canje">Productos Canje</a></li> -->
+                                </ul>
+                            </li>
+                    <?php endif ?>
+
 	            	<?php if (Auth::userCan('list_users') || Auth::userCan('add_users') || Auth::userCan('manage_roles')): ?>
 		            	<li class="dropdown <?php echo active_menu('users|user-new|user-edit|user-roles|user-fields') ?>">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">

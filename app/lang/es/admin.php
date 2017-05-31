@@ -65,7 +65,7 @@ return array(
 	'role_delete2' => 'What should be done with the users having this role?',
 	'nothing' => 'Nothing',
 	'assign_role' => 'Assign this role:',
-	'required' => '(required)',
+	'required' => '(Requerido)',
 	'website' => 'Website',
 	'password_confirmation' => 'Verify Password',
 	'newpassword' => 'New Password',

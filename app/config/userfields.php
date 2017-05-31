@@ -43,10 +43,10 @@ return array(
 		'attributes' => array('class' => 'form-control'),
 		'content_before' => '<div class="form-group">',
 		'content_after'  => '</div>',
-		//'content_after'  => '</div>
-		//	<link href="'.asset_url('css/vendor/datepicker.css').'" rel="stylesheet">
-		//	<script src="'.asset_url('js/vendor/bootstrap-datepicker.js').'"></script>
-		//	<script>$(function(){$("#usermeta-birthday").datepicker({"format": "yyyy-mm-dd"})});</script>',
+		'content_after'  => '</div>
+			<link href="'.asset_url('css/vendor/datepicker.css').'" rel="stylesheet">
+			<script src="'.asset_url('js/vendor/bootstrap-datepicker.js').'"></script>
+			<script>$(function(){$("#usermeta-birthday").datepicker({"format": "yyyy-mm-dd"})});</script>',
 		'assignment' => array('admin', 'user')
 	),
 

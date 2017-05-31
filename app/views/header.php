@@ -20,6 +20,7 @@
 
 	<script src="<?php echo asset_url('js/vendor/jquery-1.11.1.min.js') ?>"></script>
 	<script src="<?php echo asset_url('js/vendor/bootstrap.min.js') ?>"></script>
+    <script src="<?php echo asset_url("js/vendor/bootstrap-popover.js") ?>"></script>
 	<script src="<?php echo asset_url('js/easylogin.js') ?>"></script>
 	<script src="<?php echo asset_url('js/main.js') ?>"></script>
 	<script>
@@ -46,7 +47,7 @@
                 <?php if (Auth::check()): ?>
 	          	<ul class="nav navbar-nav">
                     <li>
-                        <a href="settings.php?p=ficha"
+                        <a href="pacientes.php?p=ficha"
                            class="nav-btn"
                            data-toggle="tooltip"
                            data-placement="bottom"
