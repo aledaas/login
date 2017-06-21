@@ -37,6 +37,23 @@ function ajax_get_especialidades(){
     echo json_encode($dt->get());
 }
 
+function ajax_get_pacientes(){
+    if (!Auth::userCan('list_users')) exit;
+    $PacientesTable = Pacientes::getTable();
+    $columns = array(
+        array('db' => "{$PacientesTable}.id",     'dt' => 0, 'as' => 'id'),
+        array('db' => "nombre",     'dt' => 1),
+        array('db' => "apellido",     'dt' => 2),
+        array('db' => "dni_nro",     'dt' => 3),
+        array('db' => "fec_pconsulta",     'dt' => 4),
+    );
+    $query = Pacientes::where( "{$PacientesTable}.id", '>', "0");
+    $dt = new Hazzard\Support\DataTables($_GET, $columns, $query);
+    echo json_encode($dt->get());
+}
+
+
+
 
 // Login
 function ajax_login()

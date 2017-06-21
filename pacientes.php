@@ -12,7 +12,7 @@ $page = isset($_GET['p']) ? $_GET['p'] : 'account';
 	<div class="col-md-2">
 		<ul class="nav nav-pills nav-stacked">
             <li <?php echo $page == 'ficha' ? 'class="active"':'' ?>><a href="?p=ficha">Ficha paciente</a></li>
-            <li <?php echo $page == 'tratamientos' ? 'class="active"':'' ?>><a href="?p=tratamientos">Tratamientos</a></li>
+            <li <?php echo $page == 'tratamientos' ? 'class="active"':'' ?>><a href="?p=pacientes">listar</a></li>
 			<li <?php echo $page == 'consultas' ? 'class="active"':'' ?>><a href="?p=consultas">Consultas</a></li>
 			<li <?php echo $page == 'presupuestos' ? 'class="active"':'' ?>><a href="?p=presupuestos">Presupuestos</a></li>
 		</ul>
@@ -94,43 +94,12 @@ switch ($page) {
 	break;
 
 	// Messages
-	case 'messages':
+	case 'pacientes':
 		?>
-		<h3 class="page-header"><?php echo _e('main.pms') ?></h3>
-		
-		<h4><?php _e('main.settings') ?></h4>
-		<form action="settingsMessages" class="ajax-form">
-			<div class="checkbox">
-				<label>
-					<input type="checkbox" value="1" name="email_messages" <?php echo empty(Auth::user()->usermeta['email_messages'])?'':'checked'; ?>><?php echo _e('main.email_messages') ?>
-				</label>
-			</div>
-			<div class="checkbox">
-				<label>
-					<input type="checkbox" value="1" name="email_comments" <?php echo empty(Auth::user()->usermeta['email_comments'])?'':'checked'; ?>><?php echo _e('main.email_comments') ?>
-				</label>
-			</div>
-			<div class="form-group">
-		    	<button type="submit" name="submit" class="btn btn-primary"><?php _e('main.save_changes') ?></button>
-		    </div>
-		</form>
-		<br>
-		<h4><?php _e('main.contacts') ?></h4>
-		<ul class="list-group contact-list">
-			<?php foreach (Contact::all(Auth::user()->id) as $contact): ?>
-				<li class="list-group-item <?php echo empty($contact['accepted'])?'':'contact-confirmed' ?>" data-contact-id="<?php echo $contact['id'] ?>">
-					<a href="<?php echo App::url("profile.php?u={$contact['id']}") ?>" target="_blank">
-						<img src="<?php echo $contact['avatar'] ?>" class="contact-avatar"><?php echo $contact['name'] ?></a>
-					<span class="label label-danger"><?php _e('main.contact_request') ?></span>
-					<div class="pull-right">
-						<span class="confirmed"><a href="javascript:EasyLogin.confirmContact(<?php echo $contact['id'] ?>)"><?php _e('main.confirm_contact') ?></a> |</span>
-						<a href="javascript:EasyLogin.removeContact(<?php echo $contact['id'] ?>)"><?php _e('main.remove') ?></a>
-					</div>
-				</li>
-			<?php endforeach ?>
-		</ul>
+        <?php echo View::make('admin.pacientes')->render() ?>
 
-		<?php
+
+        <?php
 	break;
 
 	// Connect

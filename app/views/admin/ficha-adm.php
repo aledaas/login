@@ -1,29 +1,44 @@
 <script src="<?php echo asset_url("js/vendor/jquery-1.11.1.min.js") ?>"></script>
 <?php
 
-$categoria_seleccionada="";
+if (isset($_GET['id'])){
+    $paciente = Pacientes::find($_GET['id']);
+}else{
+    $paciente = new Pacientes;
+}
+
 $guardado=0;
 if (isset($_POST['submit']) && csrf_filter()) {
 
-
-	$promociones->nombre = $_POST['nombre'];
-	$promociones->marca_id = $_POST['marca_id'];
-	$promociones->id_sucursal = $_POST['id_sucursal'];
-	$categoria_seleccionada ="0";
-	if(isset($_POST['id_categoria'])){
-		$categoria_seleccionada = $_POST['id_categoria'][0];
-	}
-	$promociones->descrip_corta = $_POST['descrip_corta'];
-	$promociones->descrip_larga = $_POST['descrip_larga'];
-	$promociones->validez_desde = date('Y-m-d H:i:s', strtotime($_POST['validez_fdesde']));
-	$promociones->validez_hasta = date('Y-m-d H:i:s',strtotime($_POST['validez_fhasta']));
-	$promociones->condiciones = $_POST['condiciones'];
-	$promociones->stock = $_POST['stock'];
-	$promociones->puntos = $_POST['puntos'];
-	$promociones->video = $_POST['video'];
-//	$promociones->descuento = $_POST['descuento'];
-//	$promociones->puntos_rec = $_POST['puntos_rec'];
-	$promociones->status = 1;
+	//$paciente->id = null;
+	$paciente->avatar = "";
+	$paciente->nombre = $_POST['nombre'];
+	$paciente->apellido = $_POST['apellido'];
+	$paciente->dni_tipo = $_POST['dni_tipo'];
+	$paciente->dni_nro = $_POST['dni_nro'];
+	$paciente->email = $_POST['email'];
+	$paciente->edad = $_POST['edad'];
+	$paciente->fecha_nac = date('Y-m-d H:i:s', strtotime($_POST['fecha_nac']));
+	$paciente->est_civil = $_POST['est_civil'];
+	$paciente->hijos = $_POST['hijos'];
+	$paciente->sexo = $_POST['sexo'];
+	$paciente->calle = $_POST['calle'];
+	$paciente->calle_nro = $_POST['calle_nro'];
+	$paciente->edificio = $_POST['edificio'];
+	$paciente->piso = $_POST['piso'];
+	$paciente->dpto = $_POST['dpto'];
+	$paciente->ciudad = $_POST['ciudad'];
+	$paciente->localidad = $_POST['localidad'];
+	$paciente->cp = $_POST['cp'];
+	$paciente->telefono = $_POST['telefono'];
+	$paciente->fax = $_POST['fax'];
+	$paciente->celular = $_POST['celular'];
+	$paciente->tel_laboral = $_POST['tel_laboral'];
+	$paciente->obra_social = $_POST['obra_social'];
+	$paciente->plan = $_POST['plan'];
+	$paciente->plan_nro = $_POST['plan_nro'];
+	$paciente->fec_pconsulta = date('Y-m-d H:i:s', strtotime($_POST['fec_pconsulta']));
+//	$paciente->id_especialidad = $_POST['id_especialidad'];
 
 	$foto="";
 	if (!empty($_FILES['fotos']['name'][0])) {
@@ -32,57 +47,63 @@ if (isset($_POST['submit']) && csrf_filter()) {
 		$foto = str_replace("\"","",$foto);
 		$foto = str_replace("%","",$foto );
 	}
-	
-	
-		$data = array(
-			'marca_id' => $_POST['marca_id'],
-	    	'nombre' => $_POST['nombre'],
-	    	'id_categoria' => $categoria_seleccionada,
-			'descrip_corta' => $_POST['descrip_corta'],
-			'descrip_larga' => $_POST['descrip_larga'],
-			'fotos'	=> $foto,
-	    );
-	    $rules = array(
-	    	'marca_id' => 'required|numeric|not_in:0',
-	    	'nombre' => 'required',
-	    	'id_categoria' => 'required|not_in:0',
-			'descrip_corta' => 'required',
-			'descrip_larga' => 'required',
-			'fotos'	=> 'required',
-	    );
-if (isset($_GET['id'])){
-	 $rules = array(
-	    	'marca_id' => 'required|numeric|not_in:0',
-	    	'nombre' => 'required',
-	    	'id_categoria' => 'required|not_in:0',
-			'descrip_corta' => 'required',
-			'descrip_larga' => 'required',
-			
-	    );
-}
 
-	
+    $data = array(
+            'id' => null,
+            'avatar' => null,
+        'nombre' => $_POST['nombre'],
+        'apellido' => $_POST['apellido'],
+        'dni_tipo' => $_POST['dni_tipo'],
+        'dni_nro' => $_POST['dni_nro'],
+        'email' => $_POST['email'],
+        'edad' => $_POST['edad'],
+        'fecha_nac' => date('Y-m-d H:i:s', strtotime($_POST['fecha_nac'])),
+        'est_civil' => $_POST['est_civil'],
+        'hijos' => $_POST['hijos'],
+        'sexo' => $_POST['sexo'],
+        'calle' => $_POST['calle'],
+        'calle_nro' => $_POST['calle_nro'],
+        'edificio' => $_POST['edificio'],
+        'piso' => $_POST['piso'],
+        'dpto' => $_POST['dpto'],
+        'ciudad' => $_POST['ciudad'],
+        'localidad' => $_POST['localidad'],
+        'cp' => $_POST['cp'],
+        'telefono' => $_POST['telefono'],
+        'fax' => $_POST['fax'],
+        'celular' => $_POST['celular'],
+        'tel_laboral' => $_POST['tel_laboral'],
+        'obra_social' => $_POST['obra_social'],
+        'plan' => $_POST['plan'],
+        'plan_nro' => $_POST['plan_nro'],
+        'fec_pconsulta' => $_POST['fec_pconsulta'],
+      //  'id_especialidad' => $_POST['id_especialidad'],
+    );
+    $rules = array(
+        'nombre' => 'required',
+        'apellido' => 'required',
+        'fec_pconsulta' => 'required|not_in:0',
+       // 'id_especialidad'=> 'required',
+    );
+
   	$validator = Validator::make($data, $rules);
 	
 	if ($validator->passes()) {
 
-		if ($ver = $promociones->save()) {
+		if ($ver = $paciente->save()) {
 
-			
-		 	DB::delete('delete from cat_prod_canje where idproducto = ?', array($promociones->id));
-
-			
+		/*
 			foreach($_POST['id_categoria'] as $idcategoria){
-				DB::insert('insert into cat_prod_canje (idproducto,idcategoria) values (?, ?)', array($promociones->id,$idcategoria));
+				DB::insert('insert into cat_prod_canje (idproducto,idcategoria) values (?, ?)', array($paciente->id,$idcategoria));
 			}
 
 			if (!empty($_FILES['fotos']['name'][0])) {
-				DB::update('UPDATE  productos_canje SET fotos=? WHERE  id=?', array(serialize($ALLFILLES),$promociones->id));			
+				DB::update('UPDATE  productos_canje SET fotos=? WHERE  id=?', array(serialize($ALLFILLES),$paciente->id));
 			}
 		
 			//Crear directorio si no existe
-			if(!file_exists(DOCUMENT_ROOT . "/uploads/productos_canje/".$promociones->id."/")){
-				mkdir ( DOCUMENT_ROOT . "/uploads/productos_canje/".$promociones->id."/" );
+			if(!file_exists(DOCUMENT_ROOT . "/uploads/productos_canje/".$paciente->id."/")){
+				mkdir ( DOCUMENT_ROOT . "/uploads/productos_canje/".$paciente->id."/" );
 			}
 
 			if( isset( $_POST['eliminar_archivos'] )){
@@ -91,14 +112,14 @@ if (isset($_GET['id'])){
 
 				if(isset( $_POST['eliminar_archivos'] )){
 					foreach( $eliminar_archivos as $nombre){
-					    unlink('uploads/productos_canje/'.$promociones->id."/".$nombre);
+					    unlink('uploads/productos_canje/'.$paciente->id."/".$nombre);
 					}
 				}
 
 			if (!empty($ALLFILLES)) {
 				$key=0;
 				foreach($ALLFILLES as $valor){
-					$targetFolder = '/uploads/productos_canje/'.$promociones->id."/";
+					$targetFolder = '/uploads/productos_canje/'.$paciente->id."/";
 					$name = str_replace("'","",$ALLFILLES[$key]);
 					$name = str_replace("\"","",$name);
 					$name = str_replace("%","",$name );
@@ -111,7 +132,7 @@ if (isset($_GET['id'])){
 					move_uploaded_file($tempFile,$targetFile);
 					$key++;	
 				}
-			}
+			}*/
 		
 			$guardado=1;
 			
@@ -240,9 +261,9 @@ if (isset($_GET['id'])){
                             <div class="form-group">
                                 <label for="dni_tipo">Tipo DNI</label>
                                 <select name="dni_tipo" id="dni_tipo" class="form-control">
-                                    <option value="1" tag="1" >DNI </option>
-                                    <option value="0" tag="0" >CI </option>
-                                    <option value="0" tag="0" >LE </option>
+                                    <option value="DNI" tag="DNI" >DNI </option>
+                                    <option value="CI" tag="CI" >CI </option>
+                                    <option value="LE" tag="LE" >LE </option>
                                 </select>
                             </div>
                         </div>
@@ -256,24 +277,24 @@ if (isset($_GET['id'])){
                         <!-- EMAIL -->
                         <div class="col-md-5">
                             <div class="form-group">
-                                <label for="Email">Email<em><?php _e('admin.required') ?></em></label>
-                                <input type="text" name="Email" id="Email" value="" class="form-control">
+                                <label for="email">Email<em><?php _e('admin.required') ?></em></label>
+                                <input type="text" name="email" id="email" value="" class="form-control">
                             </div>
                         </div>
 
                         <!-- EDAD -->
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label for="Edad">Edad</label>
-                                <input type="text" name="Edad" id="Edad" value="" class="form-control">
+                                <label for="edad">Edad</label>
+                                <input type="text" name="edad" id="edad" value="" class="form-control">
                             </div>
                         </div>
 
                         <!-- FECHA NACIMIENTO -->
                         <div class="col-md-4">
-                            <label for="Fecha_nac">Fecha Nacimiento</label>
+                            <label for="fecha_nac">Fecha Nacimiento</label>
                             <div class='input-group date' id='datetimepickerDesde'>
-                                <input type="text" name="Fecha_nac" id="Fecha_nac" value="" class="form-control">
+                                <input type="text" name="fecha_nac" id="fecha_nac" value="" class="form-control">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                             </div>
                         </div>
@@ -281,8 +302,8 @@ if (isset($_GET['id'])){
                         <!-- ESTADO CIVIL -->
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label for="estado_civil">Estado Civil</label>
-                                <select name="estado_civil" id="estado_civil" class="form-control">
+                                <label for="est_civil">Estado Civil</label>
+                                <select name="est_civil" id="est_civil" class="form-control">
                                     <option value="Soltero" tag="Soltero" >Soltero </option>
                                     <option value="Casado" tag="Casado" >Casado </option>
                                     <option value="Viudo" tag="Viudo" >Viudo </option>
@@ -312,8 +333,8 @@ if (isset($_GET['id'])){
                                 <label for="sexo">Sexo</label>
                                 <select name="sexo" id="sexo" class="form-control">
                                     <option value="0" tag="0" >Seleccione... </option>
-                                    <option value="1" tag="1" >Masculino </option>
-                                    <option value="2" tag="2" >Femenino </option>
+                                    <option value="masc" tag="1" >Masculino </option>
+                                    <option value="feme" tag="2" >Femenino </option>
                                 </select>
                             </div>
                         </div>
@@ -340,29 +361,29 @@ if (isset($_GET['id'])){
                         <!-- Calle nro -->
                         <div class="col-md-2">
                             <div class="form-group">
-                                <label for="Calle_nro">Nro</label>
-                                <input type="text" name="Calle_nro" id="Calle_nro" value="" class="form-control">
+                                <label for="calle_nro">Nro</label>
+                                <input type="text" name="calle_nro" id="calle_nro" value="" class="form-control">
                             </div>
                         </div>
                         <!-- Edificio -->
                         <div class="col-md-1">
                             <div class="form-group">
-                                <label for="Edificio">Edificio</label>
-                                <input type="text" name="Edificio" id="Edificio" value="" class="form-control">
+                                <label for="edificio">Edificio</label>
+                                <input type="text" name="edificio" id="edificio" value="" class="form-control">
                             </div>
                         </div>
                         <!-- PISO -->
                         <div class="col-md-1">
                             <div class="form-group">
-                                <label for="Piso">Piso</label>
-                                <input type="text" name="Piso" id="Piso" value="" class="form-control">
+                                <label for="piso">Piso</label>
+                                <input type="text" name="piso" id="piso" value="" class="form-control">
                             </div>
                         </div>
                         <!-- DPTO -->
                         <div class="col-md-1">
                             <div class="form-group">
-                                <label for="Dpto">Dpto.</label>
-                                <input type="text" name="Dpto" id="Dpto" value="" class="form-control">
+                                <label for="dpto">Dpto.</label>
+                                <input type="text" name="dpto" id="dpto" value="" class="form-control">
                             </div>
                         </div>
 
@@ -434,8 +455,8 @@ if (isset($_GET['id'])){
                         <!--OBRA SOCIAL -->
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label for="id_osocial">Obra Social</label>
-                                <select name="id_osocial" id="id_osocial" class="form-control">
+                                <label for="obra_social">Obra Social</label>
+                                <select name="obra_social" id="obra_social" class="form-control">
                                     <option value="">Seleccione... </option>
                                     <?php
                                     $query = DB::select('select * from obrasocial where estado = 1');
@@ -463,8 +484,32 @@ if (isset($_GET['id'])){
                         <div class="col-md-4">
                             <label for="fec_pconsulta">Fecha Primer Consulta</label>
                             <div class='input-group date' id='datetimepickerDesde'>
-                                <input type="text" name="Fecha_nac" id="fec_pconsulta" value="" class="form-control">
+                                <input type="text" name="fec_pconsulta" id="fec_pconsulta" value="" class="form-control">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="id_especialidad">Asignar a </label>
+                                <select name="id_especialidad[]" id="id_especialidad" class="selectpicker" multiple data-selected-text-format="count>6" data-width="100%">
+
+                                    <?php
+                                    foreach ((array) Especialidades::all() as $especialidades) {
+                                       /* $selected=0;
+                                        if($especialidad_seleccionada!="vacio"){
+                                            $query = DB::select('select idcategoria from cat_prod_canje as cp where cp.idproducto = ?', array($promociones->id));
+                                            foreach($query as $categoria){
+                                                if($categoria->idcategoria==$categorias->id){
+                                                    $selected=1;
+                                                }
+                                            }
+                                        } */
+
+                                        echo '<option value="'.$especialidades->id.'">'.$especialidades->nombre.'</option>';
+
+                                    }
+                                    ?>
+                                </select>
                             </div>
                         </div>
                         <div class="form-group col-md-12">
@@ -489,7 +534,7 @@ if (isset($_GET['id'])){
 						
 								<script>
 								$(function () {
-								$("#Fecha_nac").datepicker({
+								$("#fecha_nac").datepicker({
 									minDate: 0,
 								});
                                 $("#fec_pconsulta").datepicker({

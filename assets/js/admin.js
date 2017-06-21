@@ -107,6 +107,91 @@ jQuery(function ($) {
         });
 	};
 
+    // pacientes DataTable
+    EasyLogin.admin.pacientesDT = function () {
+
+
+        pacientesDataTable = $('#pacientes').DataTable({
+            serverSide: true,
+            ajax: {
+                url: EasyLogin.options.ajaxUrl,
+                data: {action: 'get_pacientes'}
+            },
+            language: EasyLogin.options.datatables,
+            order: [[1, 'desc']],
+            columns: [
+                {
+                    orderable: false,
+                    searchable: false,
+                    render: function (d) {
+                        // Render checkbox for selecting the user
+                        return '<input type="checkbox" name="pacientes[]" value="'+d+'" class="chb-select">';
+                    }
+                },
+                null,null,
+              null,
+                null,
+                {
+                    searchable: false,
+                    orderable: false,
+                    render: function (d, t, r) {
+                        // Render the actions buttons
+                        return '<a href="?page=user-edit&id='+r[0]+'" title="'+trans('edit_user')+'"><span class="glyphicon glyphicon-edit"></span></a> '+
+                            '<a href="?page=message-reply&id='+r[0]+'" title="'+trans('send_message')+'"><span class="glyphicon glyphicon-share-alt"></span></a> '+
+                            '<a href="javascript:EasyLogin.admin.composeEmail(\''+r[2]+'\')" title="'+trans('send_email')+'"><span class="glyphicon glyphicon-envelope"></span></a> '+
+                            '<a href="javascript:EasyLogin.admin.deleteUser('+r[0]+', \''+(r[1]||r[2])+'\')" title="'+trans('delete_user')+'"><span class="glyphicon glyphicon-trash"></span></a>';
+                    }
+                }
+            ]
+        });
+
+        /*
+         // Search only if the user enters 3 or more characters
+         $('#users_filter input').off().on('input', function (e) {
+         var value = $.trim($(this).val());
+         if (value.length >= 3) usersDataTable.search(value).draw();
+         if (value == '')  usersDataTable.search('').draw();
+         });
+         */
+
+        // Add "Delete" button for deleting multiple users
+        $('#users_length').before('<button type="submit" class="btn btn-danger btn-sm delete-bulk" disabled>'+trans('delete')+'</button>');
+
+        var $form = $('#users_form');
+
+        // Delete users when clicking on the "Delete" button
+        $form.on('submit', function (e) {
+            e.preventDefault();
+
+            var length = $(e.currentTarget).find('.chb-select:checked').length;
+
+            if (!length) return;
+
+            var modal = $('#deleteUsersModal');
+            modal.find('input[name="users"]').val($form.serialize());
+            modal.find('.users').text(length);
+            modal.modal('show');
+
+            // Register ajax form callback
+            EasyLogin.ajaxFormCb.deleteUsers = function () {
+                usersDataTable.draw();
+                modal.modal('hide');
+            };
+        });
+
+        // Filter users by the role when clicking on a role
+        $form.find('.role-filter li').on('click', 'a', function (e) {
+            e.preventDefault();
+
+            if ($(e.delegateTarget).hasClass('active')) return;
+
+            usersDataTable.column(6).search( $(this).attr('data-role') ).draw();
+
+            $(e.delegateTarget).parent().find('li.active').removeClass('active');
+            $(e.delegateTarget).addClass('active');
+        });
+    };
+
 	// Delete User
 	EasyLogin.admin.deleteUser = function (userId, username) {
 		var modal = $('#deleteUserModal');

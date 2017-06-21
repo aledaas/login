@@ -14,6 +14,7 @@
 	<link href="<?php echo asset_url('css/bootstrap-custom.css') ?>" rel="stylesheet">
 	<link href="<?php echo asset_url('css/main.css') ?>" rel="stylesheet">
 	<!-- <link href="<?php echo asset_url('css/flat.css') ?>" rel="stylesheet"> -->
+    <link href=" <?php echo asset_url('css/vendor/bootstrap-select.min.css')?>" media="all" rel="stylesheet" type="text/css" />
 
 	<?php $color = Config::get('app.color_scheme'); ?>
 	<link href="<?php echo asset_url("css/colors/{$color}.css") ?>" rel="stylesheet" id="color_scheme">
@@ -21,8 +22,10 @@
 	<script src="<?php echo asset_url('js/vendor/jquery-1.11.1.min.js') ?>"></script>
 	<script src="<?php echo asset_url('js/vendor/bootstrap.min.js') ?>"></script>
     <script src="<?php echo asset_url("js/vendor/bootstrap-popover.js") ?>"></script>
+    <script src="<?php echo asset_url("js/vendor/bootstrap-select.min.js") ?>" type="text/javascript"></script>
 	<script src="<?php echo asset_url('js/easylogin.js') ?>"></script>
 	<script src="<?php echo asset_url('js/main.js') ?>"></script>
+    <script src="<?php echo asset_url("js/admin.js") ?>"></script>
 	<script>
 		EasyLogin.options = {
 			ajaxUrl: '<?php echo App::url("ajax.php") ?>',
@@ -47,7 +50,7 @@
                 <?php if (Auth::check()): ?>
 	          	<ul class="nav navbar-nav">
                     <li>
-                        <a href="pacientes.php?p=ficha"
+                        <a href="pacientes.php?p=pacientes"
                            class="nav-btn"
                            data-toggle="tooltip"
                            data-placement="bottom"
