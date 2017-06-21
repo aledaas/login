@@ -24,7 +24,7 @@ return array(
 	|
 	*/
 
-    'url' => 'http://54.86.17.52/login',
+	'url' => 'http://localhost/login',
 
 
 	/*
