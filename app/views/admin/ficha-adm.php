@@ -76,7 +76,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
         'obra_social' => $_POST['obra_social'],
         'plan' => $_POST['plan'],
         'plan_nro' => $_POST['plan_nro'],
-        'fec_pconsulta' => $_POST['fec_pconsulta'],
+        'fec_pconsulta' => date('Y-m-d H:i:s', strtotime($_POST['fecha_pconsulta']),
       //  'id_especialidad' => $_POST['id_especialidad'],
     );
     $rules = array(
@@ -92,47 +92,6 @@ if (isset($_POST['submit']) && csrf_filter()) {
 
 		if ($ver = $paciente->save()) {
 
-		/*
-			foreach($_POST['id_categoria'] as $idcategoria){
-				DB::insert('insert into cat_prod_canje (idproducto,idcategoria) values (?, ?)', array($paciente->id,$idcategoria));
-			}
-
-			if (!empty($_FILES['fotos']['name'][0])) {
-				DB::update('UPDATE  productos_canje SET fotos=? WHERE  id=?', array(serialize($ALLFILLES),$paciente->id));
-			}
-		
-			//Crear directorio si no existe
-			if(!file_exists(DOCUMENT_ROOT . "/uploads/productos_canje/".$paciente->id."/")){
-				mkdir ( DOCUMENT_ROOT . "/uploads/productos_canje/".$paciente->id."/" );
-			}
-
-			if( isset( $_POST['eliminar_archivos'] )){
-					$eliminar_archivos=$_POST['eliminar_archivos'];
-			}
-
-				if(isset( $_POST['eliminar_archivos'] )){
-					foreach( $eliminar_archivos as $nombre){
-					    unlink('uploads/productos_canje/'.$paciente->id."/".$nombre);
-					}
-				}
-
-			if (!empty($ALLFILLES)) {
-				$key=0;
-				foreach($ALLFILLES as $valor){
-					$targetFolder = '/uploads/productos_canje/'.$paciente->id."/";
-					$name = str_replace("'","",$ALLFILLES[$key]);
-					$name = str_replace("\"","",$name);
-					$name = str_replace("%","",$name );
-					//$tempFile = $_FILES['fotos']['tmp_name'][0]; SI ES MULTIPLE
-					$tempFile = $_FILES['fotos']['tmp_name'][$key];
-					$targetPath = DOCUMENT_ROOT . $targetFolder;
-					//$targetFile = utf8_decode(rtrim($targetPath,'/') . '/' . $name[0] );
-					$targetFile = utf8_decode(rtrim($targetPath,'/') . '/' . $name);
-					//mkdir(str_replace('//','/',$targetPath), 0777, true);
-					move_uploaded_file($tempFile,$targetFile);
-					$key++;	
-				}
-			}*/
 		
 			$guardado=1;
 			
