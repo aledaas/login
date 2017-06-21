@@ -76,7 +76,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
         'obra_social' => $_POST['obra_social'],
         'plan' => $_POST['plan'],
         'plan_nro' => $_POST['plan_nro'],
-        'fec_pconsulta' => date('Y-m-d H:i:s', strtotime($_POST['fecha_pconsulta'])),
+        'fec_pconsulta' => date('Y-m-d H:i:s', strtotime($_POST['fec_pconsulta'])),
       //  'id_especialidad' => $_POST['id_especialidad'],
     );
     $rules = array(
