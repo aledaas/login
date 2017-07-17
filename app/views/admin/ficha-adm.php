@@ -10,7 +10,7 @@ if (isset($_GET['id'])){
 $guardado=0;
 if (isset($_POST['submit']) && csrf_filter()) {
 
-	//$paciente->id = null;
+	$paciente->nroficha = null;
 	$paciente->avatar = "";
 	$paciente->nombre = $_POST['nombre'];
 	$paciente->apellido = $_POST['apellido'];
@@ -49,8 +49,9 @@ if (isset($_POST['submit']) && csrf_filter()) {
 	}
 
     $data = array(
-            'id' => null,
-            'avatar' => null,
+        'id' => null,
+        'nroficha' => null,
+        'avatar' => null,
         'nombre' => $_POST['nombre'],
         'apellido' => $_POST['apellido'],
         'dni_tipo' => $_POST['dni_tipo'],
@@ -107,22 +108,10 @@ if (isset($_POST['submit']) && csrf_filter()) {
 ?>
 
 <h3 class="page-header">Ficha <Paciente></Paciente></h3>
-<p><a href="?page=canjes">Volver a fichas</a></p>
-<!-- Modal -->
-<div class="modal fade"  id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog" style="width:950px; height:1000px;">
-    <div class="modal-content">
-      <div class="modal-body" style="width:910px; height:1000px;">
-        <iframe name="myiframe" id="myiframe" src="http://local.marcas.com/promo.php?id=1" style="width:910px; height:1000px;">
-        </iframe>
-      </div>
-      <div class="modal-footer" style="width:910px;">
-        <button type="button" class="btn btn-default" data-dismiss="modal" id="close">OK Publicar</button>
-        <button type="button" class="btn btn-default" data-dismiss="modal" id="corregir">Corregir</button>
-      </div>
-    </div>
-  </div>
-</div>
+<p><a href="?p=pacientes">Volver a fichas</a></p>
+
+
+
 <?php if($guardado==0){ ?>
 <div class="row">
 	<div class="col-md-12">
@@ -204,14 +193,14 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="nombre">Nombre<em><?php _e('admin.required') ?></em></label>
-                                <input type="text" name="nombre" id="nombre" value="" class="form-control">
+                                <input type="text" name="nombre" id="nombre" value="<?php echo $paciente->nombre ?>" class="form-control">
                             </div>
                         </div>
                         <!-- Apellido -->
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="apellido">Apellido<em><?php _e('admin.required') ?></em></label>
-                                <input type="text" name="apellido" id="apellido" value="" class="form-control">
+                                <input type="text" name="apellido" id="apellido" value="<?php echo $paciente->apellido ?>" class="form-control">
                             </div>
                         </div>
                         <div class="col-md-12"></div>
@@ -230,14 +219,14 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-5">
                             <div class="form-group">
                                 <label for="dni_nro">DNI NRO<em><?php _e('admin.required') ?></em></label>
-                                <input type="text" name="dni_nro" id="dni_nro" value="" class="form-control">
+                                <input type="text" name="dni_nro" id="dni_nro" value="<?php echo $paciente->dni_nro ?>" class="form-control">
                             </div>
                         </div>
                         <!-- EMAIL -->
                         <div class="col-md-5">
                             <div class="form-group">
                                 <label for="email">Email<em><?php _e('admin.required') ?></em></label>
-                                <input type="text" name="email" id="email" value="" class="form-control">
+                                <input type="text" name="email" id="email" value="<?php echo $paciente->email ?>" class="form-control">
                             </div>
                         </div>
 
@@ -245,7 +234,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label for="edad">Edad</label>
-                                <input type="text" name="edad" id="edad" value="" class="form-control">
+                                <input type="text" name="edad" id="edad" value="<?php echo $paciente->edad ?>" class="form-control">
                             </div>
                         </div>
 
@@ -253,7 +242,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-4">
                             <label for="fecha_nac">Fecha Nacimiento</label>
                             <div class='input-group date' id='datetimepickerDesde'>
-                                <input type="text" name="fecha_nac" id="fecha_nac" value="" class="form-control">
+                                <input type="text" name="fecha_nac" id="fecha_nac" value="<?php echo $paciente->fecha_nac ?>" class="form-control">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                             </div>
                         </div>
@@ -314,35 +303,35 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-7">
                             <div class="form-group">
                                 <label for="calle">Calle</label>
-                                <input type="text" name="calle" id="calle" value="" class="form-control">
+                                <input type="text" name="calle" id="calle" value="<?php echo $paciente->calle ?>" class="form-control">
                             </div>
                         </div>
                         <!-- Calle nro -->
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label for="calle_nro">Nro</label>
-                                <input type="text" name="calle_nro" id="calle_nro" value="" class="form-control">
+                                <input type="text" name="calle_nro" id="calle_nro" value="<?php echo $paciente->calle_nro ?>" class="form-control">
                             </div>
                         </div>
                         <!-- Edificio -->
                         <div class="col-md-1">
                             <div class="form-group">
                                 <label for="edificio">Edificio</label>
-                                <input type="text" name="edificio" id="edificio" value="" class="form-control">
+                                <input type="text" name="edificio" id="edificio" value="<?php echo $paciente->edificio ?>" class="form-control">
                             </div>
                         </div>
                         <!-- PISO -->
                         <div class="col-md-1">
                             <div class="form-group">
                                 <label for="piso">Piso</label>
-                                <input type="text" name="piso" id="piso" value="" class="form-control">
+                                <input type="text" name="piso" id="piso" value="<?php echo $paciente->piso ?>" class="form-control">
                             </div>
                         </div>
                         <!-- DPTO -->
                         <div class="col-md-1">
                             <div class="form-group">
                                 <label for="dpto">Dpto.</label>
-                                <input type="text" name="dpto" id="dpto" value="" class="form-control">
+                                <input type="text" name="dpto" id="dpto" value="<?php echo $paciente->dpto ?>" class="form-control">
                             </div>
                         </div>
 
@@ -351,7 +340,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-5">
                             <div class="form-group">
                                 <label for="ciudad">Ciudad</label>
-                                <input type="text" name="ciudad" id="ciudad" value="" class="form-control">
+                                <input type="text" name="ciudad" id="ciudad" value="<?php echo $paciente->ciudad ?>" class="form-control">
                             </div>
                         </div>
 
@@ -359,14 +348,14 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-5">
                             <div class="form-group">
                                 <label for="localidad">Localidad</label>
-                                <input type="text" name="localidad" id="localidad" value="" class="form-control">
+                                <input type="text" name="localidad" id="localidad" value="<?php echo $paciente->localidad ?>" class="form-control">
                             </div>
                         </div>
                         <!-- CP -->
                         <div class="col-md-2">
                             <div class="form-group">
                                 <label for="cp">CP</label>
-                                <input type="text" name="cp" id="cp" value="" class="form-control">
+                                <input type="text" name="cp" id="cp" value="<?php echo $paciente->cp ?>" class="form-control">
                             </div>
                         </div>
 
@@ -375,28 +364,28 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label for="telefono">Telefono</label>
-                                <input type="text" name="telefono" id="telefono" value="" class="form-control">
+                                <input type="text" name="telefono" id="telefono" value="<?php echo $paciente->telefono ?>" class="form-control">
                             </div>
                         </div>
                         <!-- FAX -->
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label for="fax">Fax</label>
-                                <input type="text" name="fax" id="fax" value="" class="form-control">
+                                <input type="text" name="fax" id="fax" value="<?php echo $paciente->fax ?>" class="form-control">
                             </div>
                         </div>
                         <!-- CELULAR -->
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label for="celular">Celular</label>
-                                <input type="text" name="celular" id="celular" value="" class="form-control">
+                                <input type="text" name="celular" id="celular" value="<?php echo $paciente->celular ?>" class="form-control">
                             </div>
                         </div>
                         <!-- TELEFONO LABORAL -->
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label for="tel_laboral">Telefono Laboral</label>
-                                <input type="text" name="tel_laboral" id="tel_laboral" value="" class="form-control">
+                                <input type="text" name="tel_laboral" id="tel_laboral" value="<?php echo $paciente->tel_laboral ?>" class="form-control">
                             </div>
                         </div>
   						<br>
@@ -429,21 +418,21 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="plan">Plan</label>
-                                <input type="text" name="plan" id="plan" value="" class="form-control">
+                                <input type="text" name="plan" id="plan" value="<?php echo $paciente->plan ?>" class="form-control">
                             </div>
                         </div>
                         <!-- PLAN NRO -->
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="plan_nro">Nro</label>
-                                <input type="text" name="plan_nro" id="plan_nro" value="" class="form-control">
+                                <input type="text" name="plan_nro" id="plan_nro" value="<?php echo $paciente->plan_nro ?>" class="form-control">
                             </div>
                         </div>
                         <!-- PRIMER CONSULTA -->
                         <div class="col-md-4">
                             <label for="fec_pconsulta">Fecha Primer Consulta</label>
                             <div class='input-group date' id='datetimepickerDesde'>
-                                <input type="text" name="fec_pconsulta" id="fec_pconsulta" value="" class="form-control">
+                                <input type="text" name="fec_pconsulta" id="fec_pconsulta" value="<?php echo $paciente->fec_pconsulta ?>" class="form-control">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                             </div>
                         </div>

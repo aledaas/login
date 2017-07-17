@@ -14,7 +14,7 @@ $page = isset($_GET['p']) ? $_GET['p'] : 'account';
             <li <?php echo $page == 'ficha' ? 'class="active"':'' ?>><a href="?p=ficha">Ficha paciente</a></li>
             <li <?php echo $page == 'tratamientos' ? 'class="active"':'' ?>><a href="?p=pacientes">listar</a></li>
 			<li <?php echo $page == 'consultas' ? 'class="active"':'' ?>><a href="?p=consultas">Consultas</a></li>
-			<li <?php echo $page == 'presupuestos' ? 'class="active"':'' ?>><a href="?p=presupuestos">Presupuestos</a></li>
+			<li <?php echo $page == 'presu' ? 'class="active"':'' ?>><a href="?p=presu">Presupuestos</a></li>
 		</ul>
 	</div>
 	<div class="col-md-10">
@@ -93,14 +93,14 @@ switch ($page) {
 		<?php
 	break;
 
-	// Messages
+	// pacientes
 	case 'pacientes':
-		?>
-        <?php echo View::make('admin.pacientes')->render() ?>
-
-
-        <?php
+		echo View::make('admin.pacientes')->render();
 	break;
+    // presupuestos
+    case 'presu':
+        echo View::make('admin.presupuesto-adm')->render();
+        break;
 
 	// Connect
 	case 'connect':

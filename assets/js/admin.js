@@ -136,10 +136,8 @@ jQuery(function ($) {
                     orderable: false,
                     render: function (d, t, r) {
                         // Render the actions buttons
-                        return '<a href="?page=user-edit&id='+r[0]+'" title="'+trans('edit_user')+'"><span class="glyphicon glyphicon-edit"></span></a> '+
-                            '<a href="?page=message-reply&id='+r[0]+'" title="'+trans('send_message')+'"><span class="glyphicon glyphicon-share-alt"></span></a> '+
-                            '<a href="javascript:EasyLogin.admin.composeEmail(\''+r[2]+'\')" title="'+trans('send_email')+'"><span class="glyphicon glyphicon-envelope"></span></a> '+
-                            '<a href="javascript:EasyLogin.admin.deleteUser('+r[0]+', \''+(r[1]||r[2])+'\')" title="'+trans('delete_user')+'"><span class="glyphicon glyphicon-trash"></span></a>';
+                        return '<a href="?p=ficha&id='+r[0]+'" title="Entrar a la ficha"><span class="glyphicon glyphicon-edit"></span></a> '+
+                            '<a href="javascript:EasyLogin.admin.composeEmail(\''+r[2]+'\')" title="'+trans('send_email')+'"><span class="glyphicon glyphicon-envelope"></span></a> ';
                     }
                 }
             ]
