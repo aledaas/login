@@ -49,7 +49,7 @@ function ajax_get_pacientes(){
     );
     $query = Pacientes::where( "{$PacientesTable}.id", '>', "0");
     $dt = new Hazzard\Support\DataTables($_GET, $columns, $query);
-    echo json_encode($dt->get());
+    echo json_encode($dt->get($PacientesTable.'.id'));
 }
 
 
