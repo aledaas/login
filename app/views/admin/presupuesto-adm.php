@@ -97,9 +97,9 @@ if (isset($_POST['submit']) && csrf_filter()) {
 }
 
 ?>
-
-<h3 class="page-header">Presupuesto </h3>
-<p><a href="?page=fichas">Volver a fichas</a></p>
+<?php $paciente = Pacientes::find($_GET['pac_id'], $columns = array('nombre', 'apellido')) ?>
+<h3 class="page-header">Presupuesto para <?php echo $paciente->nombre."".$paciente->apellido ?> </h3>
+<p><a href="?page=pacientes">Volver a fichas</a></p>
 
 <div class="row">
 	<div class="col-md-12">
@@ -114,7 +114,8 @@ if (isset($_POST['submit']) && csrf_filter()) {
 
 		<form action=""  method="POST" >
                 <?php csrf_input() ?>
-
+            <!-- PACIENTE -->
+            <input type="hidden" name="paciente_id" id="paciente_id" value="<?php echo $_GET['pac_id'] ?>" class="form-control">
             <br>
             <!-- FECHA  -->
             <div class="col-md-4">
@@ -136,17 +137,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 </div>
             </div>
 
-            <!-- PACIENTE -->
-            <div class="col-md-4">
-                <div class="form-group">
-                    <label for="paciente_id">Paciente</label>
-                    <select name="paciente_id" id="paciente_id" class="form-control">
-                        <?php foreach ((array) Pacientes::all() as $paciente) { ?>
-                            <option <?php echo $paciente->id == $presupuesto->paciente_id ? 'selected' : '' ?>><?php echo $paciente->nombre." ".$paciente->apellido ?></option>
-                        <?php } ?>
-                    </select>
-                </div>
-            </div>
+
             <!-- validez -->
             <div class="col-md-4">
                 <label for="fecha">Validez </label>
@@ -155,11 +146,15 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                 </div>
             </div>
-            <!-- TRATAMIENTO -->
+            <!-- TRATAMIENTOs aqui debo poner un combo de los tratamientos de los clientes -->
             <div class="col-md-10">
                 <div class="form-group">
-                    <label for="tratamiento">Tratamiento <em><?php _e('admin.required') ?></em></label>
-                    <input type="text" name="tratamiento" id="tratamiento" value="<?php echo $presupuesto->tratamiento ?>" class="form-control">
+                    <label for="tratamiento">Tratamientos <em><?php _e('admin.required') ?></em></label>
+                    <select name="tratamiento" id="tratamiento" class="form-control">
+                    <?php foreach ((array) Tratamientos::all() as $tratamiento){
+                        echo '<option value="'.$tratamiento->id.'">'.$tratamiento->tratamiento.'</option>';
+                    }?>
+                    </select>
                 </div>
             </div>
 

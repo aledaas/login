@@ -1,8 +1,8 @@
 <?php
 use Hazzard\Database\Model;
-class Pacientes extends Model {
+class Tratamientos extends Model {
 
-    protected $table = 'pacientes';
+    protected $table = 'tratamientos';
 
     protected $guarded = array('id');
 
