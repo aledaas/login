@@ -4,7 +4,7 @@
 if (isset($_GET['id'])){
     $presupuesto = Presupuesto::find($_GET['id']);
 }else{
-    $presupuesto = new Pacientes;
+    $presupuesto = new Presupuesto;
 }
 
 $guardado=0;
@@ -87,7 +87,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
 		
 			$guardado=1;
 			
-			redirect_to('?p=pacientes', array('presupuesto_added' => true));
+			redirect_to($_SERVER['REQUEST_URI'], array('presupuesto_added' => true));
 		} else {
 			$errors = new Hazzard\Support\MessageBag(array('error' => trans('errors.dbsave')));
 		}
@@ -182,7 +182,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="hon_med_dolar">DOLAR</label>
                         <input type="text" name="hon_med_dolar" id="hon_med_dolar"
-                            value="<?php echo $presupuesto->hon_med_dolar ?>" class="form-control">
+                            value="<?php echo $presupuesto->hon_med_dolar ?>" readonly="readonly" class="form-control">
                     </div>
                 </div>
            </div>
@@ -212,7 +212,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="Ane_dolar">DOLAR</label>
                         <input type="text" name="Ane_dolar" id="Ane_dolar"
-                               value="<?php echo $presupuesto->Ane_dolar ?>" class="form-control">
+                               value="<?php echo $presupuesto->Ane_dolar ?>" readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -240,7 +240,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="gas_san_dolar">DOLAR</label>
                         <input type="text" name="gas_san_dolar" id="gas_san_dolar"
-                               value="<?php echo $presupuesto->gas_san_dolar ?>" class="form-control">
+                               value="<?php echo $presupuesto->gas_san_dolar ?>"  readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -268,7 +268,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="int_dolar">DOLAR</label>
                         <input type="text" name="int_dolar" id="int_dolar"
-                               value="<?php echo $presupuesto->int_dolar ?>" class="form-control">
+                               value="<?php echo $presupuesto->int_dolar ?>" readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -295,7 +295,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="form-group">
                     <label for="pro_dolar">DOLAR</label>
                     <input type="text" name="pro_dolar" id="pro_dolar"
-                           value="<?php echo $presupuesto->pro_dolar ?>" class="form-control">
+                           value="<?php echo $presupuesto->pro_dolar ?>" readonly="readonly" class="form-control">
                 </div>
             </div>
         </div>
@@ -322,7 +322,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="otr_gas_dolar">DOLAR</label>
                         <input type="text" name="otr_gas_dolar" id="otr_gas_dolar"
-                               value="<?php echo $presupuesto->otr_gas_dolar ?>" class="form-control">
+                               value="<?php echo $presupuesto->otr_gas_dolar ?>" readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -330,16 +330,16 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="col-md-5" align="right"><LABEL>SUBTOTAL</LABEL></div>
                 <div class="col-md-2">
                     <div class="form-group">
-                        <label for="desc_pesos">PESOS</label>
-                        <input type="text" name="desc_pesos" id="desc_pesos"
+                        <label for="sub_pesos">PESOS</label>
+                        <input type="text" name="sub_pesos" id="sub_pesos"
                                value="<?php echo $presupuesto->desc_pesos ?>" class="form-control">
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
-                        <label for="desc_dolar">DOLAR</label>
-                        <input type="text" name="desc_dolar" id="desc_dolar"
-                               value="<?php echo $presupuesto->desc_dolar ?>" class="form-control">
+                        <label for="sub_dolar">DOLAR</label>
+                        <input type="text" name="sub_dolar" id="sub_dolar"
+                               value="<?php echo $presupuesto->desc_dolar ?>"  readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -350,14 +350,16 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="desc_pesos">% PESOS</label>
                         <input type="text" name="desc_pesos" id="desc_pesos"
-                               value="<?php echo $presupuesto->desc_pesos ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->desc_pesos)) echo $presupuesto->desc_pesos; else echo 0; ?>"
+                               class="form-control">
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="desc_dolar">% DOLAR</label>
                         <input type="text" name="desc_dolar" id="desc_dolar"
-                               value="<?php echo $presupuesto->desc_dolar ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->desc_dolar)) echo $presupuesto->desc_dolar; else echo 0; ?>"
+                               readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -365,16 +367,16 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="col-md-5" align="right"><LABEL>TOTAL</LABEL></div>
                 <div class="col-md-2">
                     <div class="form-group">
-                        <label for="desc_pesos">PESOS</label>
-                        <input type="text" name="desc_pesos" id="desc_pesos"
-                               value="<?php echo $presupuesto->desc_pesos ?>" class="form-control">
+                        <label for="tot_pesos">PESOS</label>
+                        <input type="text" name="tot_pesos" id="tot_pesos"
+                               value="" readonly="readonly"  class="form-control">
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
-                        <label for="desc_dolar">DOLAR</label>
-                        <input type="text" name="desc_dolar" id="desc_dolar"
-                               value="<?php echo $presupuesto->desc_dolar ?>" class="form-control">
+                        <label for="tot_dolar">DOLAR</label>
+                        <input type="text" name="tot_dolar" id="tot_dolar"
+                               value="" readonly="readonly"  class="form-control">
                     </div>
                 </div>
             </div>
@@ -425,67 +427,117 @@ if (isset($_POST['submit']) && csrf_filter()) {
 
 	$(function() {
 
-		$(".tomarTab").click( function(){
-			
-			$("#tab1active").parent().removeClass("active" );
-			$("#tab2active").parent().removeClass("active");
-			$("#tab3active").parent().removeClass("active");
-			$("#tab4active").parent().removeClass("active");
-			if($(this).attr("href")=="#tab1"){
-				$("#tab1active").parent().addClass( "active" );
-			}
-			if($(this).attr("href")=="#tab2"){
-				$("#tab2active").parent().addClass( "active" );
-			}
-			if($(this).attr("href")=="#tab3"){
-				$("#tab3active").parent().addClass( "active" );
-			}
-			if($(this).attr("href")=="#tab4"){
-				$("#tab4active").parent().addClass( "active" );
-			}
-			
-			$('html, body').animate({
-	           scrollTop: '0px'
-	       },
-	       1000);
-		});
+		var Dolarval = 17.85;
 
-		
-		$('[data-toggle="popover"]').popover();
-		$('[data-toggle="tab"]').click(function(){
-			$('[data-toggle="popover"]').popover('hide');
-		});
-	   
-	    $('.selectpicker').selectpicker({
-		    style: 'btn-info',
-		    size: 4    
-		});
+        $("#hon_med_pesos").keyup(function(){
+            var value = $(this).val()/Dolarval;
+            $("#hon_med_dolar").val(value.toFixed(2));
 
-		
-		
-		/***********************************/
-		/*  SELECT DINAMICO 			   */
-		/***********************************/		
-		var reiniciarSelectDinamico = function(idSelect){
-			$('#'+idSelect+' option').each(function(i, option){ 
-				$(option).remove(); 			
-			});
-		}
+            $("#sub_pesos").val(parseFloat($(this).val()));
+            $("#sub_dolar").val(parseFloat($(this).val()/Dolarval).toFixed(2));
 
-		//getListadoSucursales
-		var ms="";
-		var ms2="";
-		var ms3="";
-		var ms4="";
-		$("#marca_id").change(function(){	
-			reiniciarSelectDinamico("id_sucursal");
-			EasyLogin.admin.getSucursales( $("#marca_id option:selected").val() );
-			
-		});
-	
-	
-	
-	    
-	});
+            var value2 = parseFloat($("#sub_pesos").val()) - parseFloat($("#desc_pesos").val());
+            $("#tot_pesos").val(value2.toFixed(2));
+            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+        });
+        $("#Ane_pesos").keyup(function(){
+            var value = $(this).val()/Dolarval;
+            $("#Ane_dolar").val(value.toFixed(2));
+
+            var sub = parseFloat($(this).val())+ parseFloat($("#hon_med_pesos").val());
+            $("#sub_pesos").val(parseFloat(sub));
+            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+
+            var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
+            $("#tot_pesos").val(value2.toFixed(2));
+            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+        });
+        $("#gas_san_pesos").keyup(function(){
+            var value = $(this).val()/Dolarval;
+            $("#gas_san_dolar").val(value.toFixed(2));
+            var sub = parseFloat($(this).val())+ parseFloat($("#hon_med_pesos").val())+ parseFloat($("#Ane_pesos").val());
+            $("#sub_pesos").val(parseFloat(sub));
+            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+
+            var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
+            $("#tot_pesos").val(value2.toFixed(2));
+            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+        });
+        $("#int_pesos").keyup(function(){
+            var value = $(this).val()/Dolarval;
+            $("#int_dolar").val(value.toFixed(2));
+
+            var sub = parseFloat($(this).val())+
+                parseFloat($("#hon_med_pesos").val())+
+                parseFloat($("#Ane_pesos").val()) +
+                parseFloat($("#gas_san_pesos").val());
+
+            $("#sub_pesos").val(parseFloat(sub));
+            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+
+            var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
+            $("#tot_pesos").val(value2.toFixed(2));
+            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+
+        });
+        $("#pro_pesos").keyup(function(){
+            var value = $(this).val()/Dolarval;
+            $("#pro_dolar").val(value.toFixed(2));
+
+            var sub = parseFloat($(this).val())+
+                parseFloat($("#hon_med_pesos").val())+
+                parseFloat($("#Ane_pesos").val()) +
+                parseFloat($("#gas_san_pesos").val())+
+                parseFloat($("#int_pesos").val());
+            $("#sub_pesos").val(parseFloat(sub));
+            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+
+            var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
+            $("#tot_pesos").val(value2.toFixed(2));
+            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+
+        });
+        $("#otr_gas_pesos").keyup(function(){
+            var value = $(this).val()/Dolarval;
+            $("#otr_gas_dolar").val(value.toFixed(2));
+            var sub = parseFloat($(this).val())+
+                parseFloat($("#hon_med_pesos").val())+
+                parseFloat($("#Ane_pesos").val()) +
+                parseFloat($("#gas_san_pesos").val() )+
+                parseFloat($("#int_pesos").val() )+
+                parseFloat($("#pro_pesos").val());
+            $("#sub_pesos").val(parseFloat(sub));
+            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+
+            var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
+            $("#tot_pesos").val(value2.toFixed(2));
+            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+        });
+
+        $("#desc_pesos").keyup(function(){
+            var value = $(this).val()/Dolarval;
+            $("#desc_dolar").val(value.toFixed(2));
+
+            var value2 = parseFloat($("#sub_pesos").val()) - parseFloat($(this).val());
+            $("#tot_pesos").val(value2.toFixed(2));
+            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+
+        });
+
+       $("#tot_pesos").change(function(){
+            var value = $(this).val()/Dolarval;
+            $("#tot_dolar").val(value.toFixed(2));
+        });
+
+
+
+
+
+
+    });
+
+
+
+
 
 </script>
