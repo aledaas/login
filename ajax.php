@@ -38,7 +38,6 @@ function ajax_get_especialidades(){
 }
 
 function ajax_get_pacientes(){
-    if (!Auth::userCan('list_users')) exit;
     $PacientesTable = Pacientes::getTable();
     $columns = array(
         array('db' => "{$PacientesTable}.id",     'dt' => 0, 'as' => 'id'),
@@ -52,6 +51,19 @@ function ajax_get_pacientes(){
     echo json_encode($dt->get($PacientesTable.'.id'));
 }
 
+function ajax_get_presupuestos(){
+    $PresupuestoTable = Presupuesto::getTable();
+    $columns = array(
+        array('db' => "{$PresupuestoTable}.id",     'dt' => 0, 'as' => 'id'),
+        array('db' => "paciente_id",     'dt' => 1),
+        array('db' => "estado",     'dt' => 2),
+        array('db' => "validez",     'dt' => 3),
+        array('db' => "forma_pago",     'dt' => 4),
+    );
+    $query = Presupuesto::where( "{$PresupuestoTable}.id", '>', "0");
+    $dt = new Hazzard\Support\DataTables($_GET, $columns, $query);
+    echo json_encode($dt->get($PresupuestoTable.'.id'));
+}
 
 
 
