@@ -219,11 +219,11 @@ jQuery(function ($) {
                     orderable: false,
                     render: function (d, t, r) {
                         // Render the actions buttons
-                        return '<a href="?p=ficha&id='+r[0]+'" title="Entrar a la ficha"><span class="glyphicon glyphicon-edit"></span></a> '+
-                            '<a href="javascript:EasyLogin.admin.composeEmail(\''+r[2]+'\')" title="Ennviar Email">' +
-                            '<span class="glyphicon glyphicon-envelope"></span></a> ' +
-                            '<a href="?p=presu&pac_id='+r[0]+'"" title="Hacer/ver Presupuestos">' +
-                            '<span class="glyphicon glyphicon-paperclip"></span></a> ';
+                        return '<a href="?p=presu&id='+r[0]+'" title="Editar Presupuesto">' +
+                                    '<span class="glyphicon glyphicon-edit"></span></a> '+
+
+                            '<a href="?p=print_presu&id='+r[0]+'"" title="Imprimir">' +
+                            '<span class="glyphicon glyphicon-print"></span></a> ';
                     }
                 }
             ]

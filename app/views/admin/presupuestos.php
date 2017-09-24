@@ -2,7 +2,6 @@
 
 <h3 class="page-header">
 	Presupuestos
-	<a href="?p=ficha" class="btn btn-default btn-sm">Agregar Presupuesto</a>
 </h3>
 
 <link href="<?php echo asset_url('css/vendor/dataTables.bootstrap.css') ?>" rel="stylesheet">
@@ -36,7 +35,7 @@
 				<th>Paciente</th>
 				<th>Estado</th>
 				<th>Validez</th>
-				<th>Forma de Pago</th>
+				<th>Total-Pesos</th>
 
 				<th><?php _e('admin.action') ?></th>
 			</tr>

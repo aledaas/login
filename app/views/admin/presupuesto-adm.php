@@ -10,7 +10,9 @@ if (isset($_GET['id'])){
 $guardado=0;
 if (isset($_POST['submit']) && csrf_filter()) {
 
-	$presupuesto->fecha = date('Y-m-d H:i:s', strtotime($_POST['fecha']));
+
+
+	$presupuesto->fecha = date('Y-m-d', strtotime($_POST['fecha']));
 	$presupuesto->paciente_id = $_POST['paciente_id'];
 	$presupuesto->estado = $_POST['estado'];
 	$presupuesto->tratamiento = $_POST['tratamiento'];
@@ -36,13 +38,15 @@ if (isset($_POST['submit']) && csrf_filter()) {
 	$presupuesto->desc_dolar = $_POST['desc_dolar'];
 	$presupuesto->Observaciones = $_POST['Observaciones'];
 	$presupuesto->forma_pago = "EFectivo";
-	$presupuesto->validez = date('Y-m-d H:i:s', strtotime($_POST['validez']));
+	$presupuesto->validez = date('Y-m-d', strtotime($_POST['validez']));
+	$presupuesto->tot_pesos = $_POST['tot_pesos'];
+	$presupuesto->tot_dolar = $_POST['tot_dolar'];
 
 
 
     $data = array(
 
-        'fecha' => date('Y-m-d H:i:s', strtotime($_POST['fecha'])),
+        'fecha' => date('Y-m-d', strtotime($_POST['fecha'])),
         'paciente_id' => $_POST['paciente_id'],
         'estado' => $_POST['estado'],
         'tratamiento' => $_POST['tratamiento'],
@@ -68,8 +72,9 @@ if (isset($_POST['submit']) && csrf_filter()) {
         'desc_dolar' => $_POST['desc_dolar'],
         'Observaciones' => $_POST['Observaciones'],
         'forma_pago' => "Efectivo",
-        'validez' => date('Y-m-d H:i:s', strtotime($_POST['validez'])),
-      //  'id_especialidad' => $_POST['id_especialidad'],
+        'validez' => date('Y-m-d', strtotime($_POST['validez'])),
+        'tot_pesos' => $_POST['tot_pesos'],
+        'tot_dolar' => $_POST['tot_dolar'],
     );
     $rules = array(
         'fecha' => 'required',
@@ -97,10 +102,17 @@ if (isset($_POST['submit']) && csrf_filter()) {
 }
 
 ?>
-<?php $paciente = Pacientes::find($_GET['pac_id'], $columns = array('nombre', 'apellido')) ?>
-<h3 class="page-header">Presupuesto para <?php echo $paciente->nombre."".$paciente->apellido ?> </h3>
-<p><a href="?page=pacientes">Volver a fichas</a></p>
+<?php
+if (isset($_GET['pac_id'])){
+    $paciente = Pacientes::find($_GET['pac_id'], $columns = array('id','nombre', 'apellido'));
+}else{
+    $paciente = Pacientes::find($presupuesto->paciente_id, $columns = array('id','nombre', 'apellido'));
+}
 
+
+?>
+<h3 class="page-header">Presupuesto para <?php echo $paciente->nombre."".$paciente->apellido ?> </h3>
+<input name="imprimir" type="button" onClick="window.print();" value="Imprimir">
 <div class="row">
 	<div class="col-md-12">
 
@@ -115,7 +127,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
 		<form action=""  method="POST" >
                 <?php csrf_input() ?>
             <!-- PACIENTE -->
-            <input type="hidden" name="paciente_id" id="paciente_id" value="<?php echo $_GET['pac_id'] ?>" class="form-control">
+            <input type="hidden" name="paciente_id" id="paciente_id" value="<?php echo $paciente->id ?>" class="form-control">
             <br>
             <!-- FECHA  -->
             <div class="col-md-4">
@@ -130,9 +142,9 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="form-group">
                     <label for="estado">Estado</label>
                     <select name="estado" id="estado" class="form-control">
-                        <option value="Pendiente" tag="Pendiente" >Pendiente </option>
-                        <option value="en curso" tag="en curso" >en curso </option>
-                        <option value="cancelado" tag="cancelado" >cancelado </option>
+                        <option value="Pendiente" <?php if($presupuesto->estado == 'Pendiente'){echo "selected='selected'";}?> tag="Pendiente" >Pendiente </option>
+                        <option value="en curso" <?php if($presupuesto->estado == 'en curso'){echo "selected='selected'";}?> tag="en curso" >en curso </option>
+                        <option value="cancelado" <?php if($presupuesto->estado == 'cancelado'){echo "selected='selected'";}?> tag="cancelado" >cancelado </option>
                     </select>
                 </div>
             </div>
@@ -165,7 +177,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="form-group">
                     <label for="honorarios_medicos">HONORARIOS MEDICOS<em><?php _e('admin.required') ?></em></label>
                     <input type="text" name="honorarios_medicos" id="honorarios_medicos"
-                     value="<?php echo $presupuesto->honorarios_medicos ?>" class="form-control">
+                     value="<?php if(isset($presupuesto->honorarios_medicos)){echo $presupuesto->honorarios_medicos;}else{echo ' ';}?>" class="form-control">
                 </div>
                 </div>
                 <!-- HONORARIOS MEDICOS PESOS -->
@@ -173,7 +185,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="form-group">
                     <label for="hon_med_pesos">PESOS</label>
                     <input type="text" name="hon_med_pesos" id="hon_med_pesos"
-                       value="<?php echo $presupuesto->hon_med_pesos ?>" class="form-control">
+                       value=" <?php if(isset($presupuesto->hon_med_pesos)){echo $presupuesto->hon_med_pesos;}else{echo 0;}?>" class="form-control">
                 </div>
             </div>
 
@@ -182,7 +194,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="hon_med_dolar">DOLAR</label>
                         <input type="text" name="hon_med_dolar" id="hon_med_dolar"
-                            value="<?php echo $presupuesto->hon_med_dolar ?>" readonly="readonly" class="form-control">
+                            value="<?php if(isset($presupuesto->hon_med_dolar)){echo $presupuesto->hon_med_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
                     </div>
                 </div>
            </div>
@@ -195,7 +207,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="Anestesia">ANESTESIA<em><?php _e('admin.required') ?></em></label>
                         <input type="text" name="Anestesia" id="Anestesia"
-                               value="<?php echo $presupuesto->Anestesia ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->Anestesia)){echo $presupuesto->Anestesia;}else{echo ' ';}?>" class="form-control">
                     </div>
                 </div>
                 <!-- Anestesia PESOS -->
@@ -203,7 +215,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="Ane_pesos">PESOS</label>
                         <input type="text" name="Ane_pesos" id="Ane_pesos"
-                               value="<?php echo $presupuesto->Ane_pesos ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->Ane_pesos)){echo $presupuesto->Ane_pesos;}else{echo 0;}?>" class="form-control">
                     </div>
                 </div>
 
@@ -212,7 +224,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="Ane_dolar">DOLAR</label>
                         <input type="text" name="Ane_dolar" id="Ane_dolar"
-                               value="<?php echo $presupuesto->Ane_dolar ?>" readonly="readonly" class="form-control">
+                               value="<?php if(isset($presupuesto->Ane_dolar)){echo $presupuesto->Ane_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -223,7 +235,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="gastos_sanatoriales">GASTOS SANATORIALES<em><?php _e('admin.required') ?></em></label>
                         <input type="text" name="gastos_sanatoriales" id="gastos_sanatoriales"
-                               value="<?php echo $presupuesto->gastos_sanatoriales ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->gastos_sanatoriales)){echo $presupuesto->gastos_sanatoriales;}else{echo ' ';}?>" class="form-control">
                     </div>
                 </div>
                 <!-- gastos_sanatoriales PESOS -->
@@ -231,7 +243,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="gas_san_pesos">PESOS</label>
                         <input type="text" name="gas_san_pesos" id="gas_san_pesos"
-                               value="<?php echo $presupuesto->gas_san_pesos ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->gas_san_pesos)){echo $presupuesto->gas_san_pesos;}else{echo 0;}?>" class="form-control">
                     </div>
                 </div>
 
@@ -240,7 +252,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="gas_san_dolar">DOLAR</label>
                         <input type="text" name="gas_san_dolar" id="gas_san_dolar"
-                               value="<?php echo $presupuesto->gas_san_dolar ?>"  readonly="readonly" class="form-control">
+                               value="<?php if(isset($presupuesto->gas_san_dolar)){echo $presupuesto->gas_san_dolar;}else{echo 0;}?>"  readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -251,7 +263,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="internacion">INTERNACION<em><?php _e('admin.required') ?></em></label>
                         <input type="text" name="internacion" id="internacion"
-                               value="<?php echo $presupuesto->gastos_sanatoriales ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->internacion)){echo $presupuesto->internacion;}else{echo ' ';}?>" class="form-control">
                     </div>
                 </div>
                 <!-- internacion PESOS -->
@@ -259,7 +271,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="int_pesos">PESOS</label>
                         <input type="text" name="int_pesos" id="int_pesos"
-                               value="<?php echo $presupuesto->int_pesos ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->int_pesos)){echo $presupuesto->int_pesos;}else{echo 0;}?>" class="form-control">
                     </div>
                 </div>
 
@@ -268,7 +280,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="int_dolar">DOLAR</label>
                         <input type="text" name="int_dolar" id="int_dolar"
-                               value="<?php echo $presupuesto->int_dolar ?>" readonly="readonly" class="form-control">
+                               value="<?php if(isset($presupuesto->int_dolar)){echo $presupuesto->int_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -278,7 +290,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="form-group">
                     <label for="protesis">PROTESIS<em><?php _e('admin.required') ?></em></label>
                     <input type="text" name="protesis" id="protesis"
-                           value="<?php echo $presupuesto->protesis ?>" class="form-control">
+                           value="<?php if(isset($presupuesto->protesis)){echo $presupuesto->protesis;}else{echo ' ';}?>" class="form-control">
                 </div>
             </div>
             <!-- protesis PESOS -->
@@ -286,7 +298,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="form-group">
                     <label for="pro_pesos">PESOS</label>
                     <input type="text" name="pro_pesos" id="pro_pesos"
-                           value="<?php echo $presupuesto->pro_pesos ?>" class="form-control">
+                           value="<?php if(isset($presupuesto->pro_pesos)){echo $presupuesto->pro_pesos;}else{echo 0;}?>" class="form-control">
                 </div>
             </div>
 
@@ -295,7 +307,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                 <div class="form-group">
                     <label for="pro_dolar">DOLAR</label>
                     <input type="text" name="pro_dolar" id="pro_dolar"
-                           value="<?php echo $presupuesto->pro_dolar ?>" readonly="readonly" class="form-control">
+                           value="<?php if(isset($presupuesto->pro_dolar)){echo $presupuesto->pro_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
                 </div>
             </div>
         </div>
@@ -305,7 +317,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="otros_gastos">OTROS GASTOS<em><?php _e('admin.required') ?></em></label>
                         <input type="text" name="otros_gastos" id="otros_gastos"
-                               value="<?php echo $presupuesto->otros_gastos ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->otros_gastos)){echo $presupuesto->otros_gastos;}else{echo ' ';}?>" class="form-control">
                     </div>
                 </div>
                 <!-- otros_gastos PESOS -->
@@ -313,7 +325,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="otr_gas_pesos">PESOS</label>
                         <input type="text" name="otr_gas_pesos" id="otr_gas_pesos"
-                               value="<?php echo $presupuesto->otr_gas_pesos ?>" class="form-control">
+                               value="<?php if(isset($presupuesto->otr_gas_pesos)){echo $presupuesto->otr_gas_pesos;}else{echo 0;}?>" class="form-control">
                     </div>
                 </div>
 
@@ -322,7 +334,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="otr_gas_dolar">DOLAR</label>
                         <input type="text" name="otr_gas_dolar" id="otr_gas_dolar"
-                               value="<?php echo $presupuesto->otr_gas_dolar ?>" readonly="readonly" class="form-control">
+                               value="<?php if(isset($presupuesto->otr_gas_dolar)){echo $presupuesto->otr_gas_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
                     </div>
                 </div>
             </div>
@@ -369,14 +381,14 @@ if (isset($_POST['submit']) && csrf_filter()) {
                     <div class="form-group">
                         <label for="tot_pesos">PESOS</label>
                         <input type="text" name="tot_pesos" id="tot_pesos"
-                               value="" readonly="readonly"  class="form-control">
+                               value="<?php if(isset($presupuesto->tot_pesos)) echo $presupuesto->tot_pesos; else echo 0; ?>" readonly="readonly"  class="form-control">
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="tot_dolar">DOLAR</label>
                         <input type="text" name="tot_dolar" id="tot_dolar"
-                               value="" readonly="readonly"  class="form-control">
+                               value="<?php if(isset($presupuesto->tot_dolar)) echo $presupuesto->tot_dolar; else echo 0; ?>" readonly="readonly"  class="form-control">
                     </div>
                 </div>
             </div>

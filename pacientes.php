@@ -11,9 +11,9 @@ $page = isset($_GET['p']) ? $_GET['p'] : 'account';
 <div class="row">
 	<div class="col-md-2">
 		<ul class="nav nav-pills nav-stacked">
-            <li <?php echo $page == 'ficha' ? 'class="active"':'' ?>><a href="?p=ficha">Ficha paciente</a></li>
-            <li <?php echo $page == 'tratamientos' ? 'class="active"':'' ?>><a href="?p=pacientes">listar</a></li>
-			<li <?php echo $page == 'consultas' ? 'class="active"':'' ?>><a href="?p=consultas">Consultas</a></li>
+            <li <?php echo $page == 'ficha' ? 'class="active"':'' ?>><a href="?p=ficha">Nuevo paciente</a></li>
+            <li <?php echo $page == 'tratamientos' ? 'class="active"':'' ?>><a href="?p=pacientes">Fichas</a></li>
+		<!--	<li <?php echo $page == 'consultas' ? 'class="active"':'' ?>><a href="?p=consultas">Consultas</a></li> -->
 			<li <?php echo $page == 'presu-list' ? 'class="active"':'' ?>><a href="?p=presu-list">Presupuestos</a></li>
 		</ul>
 	</div>

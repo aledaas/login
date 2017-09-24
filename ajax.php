@@ -58,7 +58,7 @@ function ajax_get_presupuestos(){
         array('db' => "paciente_id",     'dt' => 1),
         array('db' => "estado",     'dt' => 2),
         array('db' => "validez",     'dt' => 3),
-        array('db' => "forma_pago",     'dt' => 4),
+        array('db' => "tot_pesos",     'dt' => 4),
     );
     $query = Presupuesto::where( "{$PresupuestoTable}.id", '>', "0");
     $dt = new Hazzard\Support\DataTables($_GET, $columns, $query);
