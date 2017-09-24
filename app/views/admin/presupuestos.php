@@ -32,12 +32,13 @@
 		<thead>
 			<tr>
 				<th><input type="checkbox" class="select-all" value="1"></th>
-				<th>Paciente</th>
+				<th>Nombre</th>
+				<th>Apellido</th>
 				<th>Estado</th>
+				<th>Fecha</th>
 				<th>Validez</th>
 				<th>Total-Pesos</th>
-
-				<th><?php _e('admin.action') ?></th>
+				<th>Accion</th>
 			</tr>
 		</thead>
 		<tbody>
