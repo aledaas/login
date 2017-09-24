@@ -219,11 +219,8 @@ jQuery(function ($) {
                     orderable: false,
                     render: function (d, t, r) {
                         // Render the actions buttons
-                        return '<a href="?p=presu&id='+r[0]+'" title="Editar Presupuesto">' +
-                                    '<span class="glyphicon glyphicon-edit"></span></a> '+
-
-                            '<a href="?p=print_presu&id='+r[0]+'"" title="Imprimir">' +
-                            '<span class="glyphicon glyphicon-print"></span></a> ';
+                        return '<a href="?p=presu&id='+r[0]+'" title="Ver Presupuesto">' +
+                                    '<span class="glyphicon glyphicon-edit"></span></a> ';
                     }
                 }
             ]
