@@ -213,7 +213,7 @@ jQuery(function ($) {
                         return '<input type="checkbox" name="pacientes[]" value="'+d+'" class="chb-select">';
                     }
                 },
-                null,null, null, null,
+                null,null, null, null,null,null,
                 {
                     searchable: false,
                     orderable: false,
