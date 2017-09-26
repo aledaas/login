@@ -432,14 +432,17 @@ if (isset($_GET['pac_id'])){
         ';
     ?>
 
-<?php echo View::make('admin.footer')->render() ?>
+<?php echo View::make('admin.footer')->render();
+$res = Variable::find(1, array('valor'));
+?>
 
 
 <script>
 
 	$(function() {
 
-		var Dolarval = 17.85;
+
+		var Dolarval = <?php echo $res['valor']; ?> ;
 
         $("#hon_med_pesos").keyup(function(){
             var value = $(this).val()/Dolarval;

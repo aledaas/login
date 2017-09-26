@@ -501,6 +501,70 @@ jQuery(function ($) {
     };
 
 
+    EasyLogin.admin.variablesDT = function () {
+
+        variablesDataTable = $('#variables').DataTable({
+            serverSide: true,
+            ajax: {
+                url: EasyLogin.options.ajaxUrl,
+                data: {action: 'get_variables'}
+            },
+            language: EasyLogin.options.datatables,
+            order: [[1, 'desc']],
+            columns: [
+                {
+                    orderable: false,
+                    render: function (d) {
+                        return '<input type="checkbox" name="variables[]" value="' + d + '" class="chb-select">';
+                    }
+                },
+                {
+                    //render: function (d, t, r) { return profileUrl(r[0], d) }
+                },
+                {
+                    //render: function (d, t, r) { return profileUrl(r[0], d) }
+                },
+                {
+                    searchable: false,
+                    orderable: false,
+                    render: function (d, t, r) {
+                        // Render the actions buttons
+                        return '<a href="?page=config-edit&id=' + r[0] + '" title="Editar"><span class="glyphicon glyphicon-edit"></span></a> ';// +
+                            // '<a href="?page=message-reply&id='+r[0]+'" title="'+trans('send_message')+'"><span class="glyphicon glyphicon-share-alt"></span></a> ';
+                            //'<a href="javascript:EasyLogin.admin.composeEmail(\''+r[2]+'\')" title="'+trans('send_email')+'"><span class="glyphicon glyphicon-envelope"></span></a> '+
+                          //  '<a href="javascript:EasyLogin.admin.deletevariable(' + r[0] + ', \'' + (r[1] || r[2]) + '\')" title="Borrar Especialidad"><span class="glyphicon glyphicon-trash"></span></a>';
+                    }
+
+                }
+            ]
+        });
+
+        // Add "Delete" button for deleting multiple marcas
+        $('#marcas_length').before('<button type="submit" class="btn btn-danger btn-sm delete-bulk" disabled>Recomendar</button>');
+
+        var form = $('#marcas_form');
+
+        // Delete marcas when clicking on the "Delete" button
+        form.on('submit', function (e) {
+            e.preventDefault();
+
+            var length = $(e.currentTarget).find('.chb-select:checked').length;
+
+            if (!length) return;
+
+            var modal = $('#deleteMarcasModal');
+            modal.find('input[name="marcas"]').val(form.serialize());
+            modal.find('.marcas').text(length);
+            modal.modal('show');
+            // Register ajax form callback
+            EasyLogin.ajaxFormCb.deleteMarcas = function () {
+                variablesDataTable.draw();
+                modal.modal('hide');
+            };
+        });
+        variablesDataTable.draw();
+    };
+
 
     EasyLogin.admin.commentsDT = function () {
         // Apply the DataTable plugin for the #comments table

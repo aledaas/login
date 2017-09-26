@@ -63,7 +63,7 @@ function page_restricted() {
                                     <span class="glyphicon glyphicon-th"></span> General <b class="caret"></b>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="?page=config">Médicos</a></li>
+                                    <li><a href="?page=config">Variables</a></li>
                                     <li><a href="?page=especialidades">Especialidades</a></li>
                                     <li><a href="?page=categorias">Obras Sociales</a></li>
                                    <!-- <li><a href="?page=publicidades">Publicidades</a></li>
