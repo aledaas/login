@@ -44,7 +44,7 @@ function ajax_get_pacientes(){
         array('db' => "nombre",     'dt' => 1),
         array('db' => "apellido",     'dt' => 2),
         array('db' => "dni_nro",     'dt' => 3),
-        array('db' => "fec_pconsulta",     'dt' => 4),
+        array('db' => "telefono",     'dt' => 4),
     );
     $query = Pacientes::where( "{$PacientesTable}.id", '>', "0");
     $dt = new Hazzard\Support\DataTables($_GET, $columns, $query);

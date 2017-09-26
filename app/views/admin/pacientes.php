@@ -36,7 +36,7 @@
 				<th>Nombre</th>
 				<th>Apellido</th>
 				<th>Dni</th>
-				<th>Ultima Consulta</th>
+				<th>Telefono</th>
 
 				<th><?php _e('admin.action') ?></th>
 			</tr>
