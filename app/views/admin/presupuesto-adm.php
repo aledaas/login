@@ -194,7 +194,7 @@ if (isset($_GET['pac_id'])){
                     <div class="form-group">
                         <label for="hon_med_dolar">DOLAR</label>
                         <input type="text" name="hon_med_dolar" id="hon_med_dolar"
-                            value="<?php if(isset($presupuesto->hon_med_dolar)){echo $presupuesto->hon_med_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
+                            value="<?php if(isset($presupuesto->hon_med_dolar)){echo $presupuesto->hon_med_dolar;}else{echo 0;}?>"  class="form-control">
                     </div>
                 </div>
            </div>
@@ -224,7 +224,7 @@ if (isset($_GET['pac_id'])){
                     <div class="form-group">
                         <label for="Ane_dolar">DOLAR</label>
                         <input type="text" name="Ane_dolar" id="Ane_dolar"
-                               value="<?php if(isset($presupuesto->Ane_dolar)){echo $presupuesto->Ane_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
+                               value="<?php if(isset($presupuesto->Ane_dolar)){echo $presupuesto->Ane_dolar;}else{echo 0;}?>"  class="form-control">
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@ if (isset($_GET['pac_id'])){
                     <div class="form-group">
                         <label for="gas_san_dolar">DOLAR</label>
                         <input type="text" name="gas_san_dolar" id="gas_san_dolar"
-                               value="<?php if(isset($presupuesto->gas_san_dolar)){echo $presupuesto->gas_san_dolar;}else{echo 0;}?>"  readonly="readonly" class="form-control">
+                               value="<?php if(isset($presupuesto->gas_san_dolar)){echo $presupuesto->gas_san_dolar;}else{echo 0;}?>"   class="form-control">
                     </div>
                 </div>
             </div>
@@ -280,7 +280,7 @@ if (isset($_GET['pac_id'])){
                     <div class="form-group">
                         <label for="int_dolar">DOLAR</label>
                         <input type="text" name="int_dolar" id="int_dolar"
-                               value="<?php if(isset($presupuesto->int_dolar)){echo $presupuesto->int_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
+                               value="<?php if(isset($presupuesto->int_dolar)){echo $presupuesto->int_dolar;}else{echo 0;}?>"  class="form-control">
                     </div>
                 </div>
             </div>
@@ -307,7 +307,7 @@ if (isset($_GET['pac_id'])){
                 <div class="form-group">
                     <label for="pro_dolar">DOLAR</label>
                     <input type="text" name="pro_dolar" id="pro_dolar"
-                           value="<?php if(isset($presupuesto->pro_dolar)){echo $presupuesto->pro_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
+                           value="<?php if(isset($presupuesto->pro_dolar)){echo $presupuesto->pro_dolar;}else{echo 0;}?>"  class="form-control">
                 </div>
             </div>
         </div>
@@ -334,7 +334,7 @@ if (isset($_GET['pac_id'])){
                     <div class="form-group">
                         <label for="otr_gas_dolar">DOLAR</label>
                         <input type="text" name="otr_gas_dolar" id="otr_gas_dolar"
-                               value="<?php if(isset($presupuesto->otr_gas_dolar)){echo $presupuesto->otr_gas_dolar;}else{echo 0;}?>" readonly="readonly" class="form-control">
+                               value="<?php if(isset($presupuesto->otr_gas_dolar)){echo $presupuesto->otr_gas_dolar;}else{echo 0;}?>"  class="form-control">
                     </div>
                 </div>
             </div>
@@ -351,7 +351,7 @@ if (isset($_GET['pac_id'])){
                     <div class="form-group">
                         <label for="sub_dolar">DOLAR</label>
                         <input type="text" name="sub_dolar" id="sub_dolar"
-                               value="<?php echo $presupuesto->desc_dolar ?>"  readonly="readonly" class="form-control">
+                               value="<?php echo $presupuesto->desc_dolar ?>"   class="form-control">
                     </div>
                 </div>
             </div>
@@ -371,7 +371,7 @@ if (isset($_GET['pac_id'])){
                         <label for="desc_dolar">% DOLAR</label>
                         <input type="text" name="desc_dolar" id="desc_dolar"
                                value="<?php if(isset($presupuesto->desc_dolar)) echo $presupuesto->desc_dolar; else echo 0; ?>"
-                               readonly="readonly" class="form-control">
+                                class="form-control">
                     </div>
                 </div>
             </div>
@@ -381,14 +381,14 @@ if (isset($_GET['pac_id'])){
                     <div class="form-group">
                         <label for="tot_pesos">PESOS</label>
                         <input type="text" name="tot_pesos" id="tot_pesos"
-                               value="<?php if(isset($presupuesto->tot_pesos)) echo $presupuesto->tot_pesos; else echo 0; ?>" readonly="readonly"  class="form-control">
+                               value="<?php if(isset($presupuesto->tot_pesos)) echo $presupuesto->tot_pesos; else echo 0; ?>"  class="form-control">
                     </div>
                 </div>
                 <div class="col-md-2">
                     <div class="form-group">
                         <label for="tot_dolar">DOLAR</label>
                         <input type="text" name="tot_dolar" id="tot_dolar"
-                               value="<?php if(isset($presupuesto->tot_dolar)) echo $presupuesto->tot_dolar; else echo 0; ?>" readonly="readonly"  class="form-control">
+                               value="<?php if(isset($presupuesto->tot_dolar)) echo $presupuesto->tot_dolar; else echo 0; ?>"   class="form-control">
                     </div>
                 </div>
             </div>
@@ -446,41 +446,41 @@ $res = Variable::find(1, array('valor'));
 
         $("#hon_med_pesos").keyup(function(){
             var value = $(this).val()/Dolarval;
-            $("#hon_med_dolar").val(value.toFixed(2));
+           // $("#hon_med_dolar").val(value.toFixed(2));
 
             $("#sub_pesos").val(parseFloat($(this).val()));
-            $("#sub_dolar").val(parseFloat($(this).val()/Dolarval).toFixed(2));
+         //   $("#sub_dolar").val(parseFloat($(this).val()/Dolarval).toFixed(2));
 
             var value2 = parseFloat($("#sub_pesos").val()) - parseFloat($("#desc_pesos").val());
             $("#tot_pesos").val(value2.toFixed(2));
-            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+          //  $("#tot_dolar").val((value2/Dolarval).toFixed(2));
         });
         $("#Ane_pesos").keyup(function(){
             var value = $(this).val()/Dolarval;
-            $("#Ane_dolar").val(value.toFixed(2));
+         //   $("#Ane_dolar").val(value.toFixed(2));
 
             var sub = parseFloat($(this).val())+ parseFloat($("#hon_med_pesos").val());
             $("#sub_pesos").val(parseFloat(sub));
-            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+          //  $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
 
             var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
             $("#tot_pesos").val(value2.toFixed(2));
-            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+        //    $("#tot_dolar").val((value2/Dolarval).toFixed(2));
         });
         $("#gas_san_pesos").keyup(function(){
             var value = $(this).val()/Dolarval;
-            $("#gas_san_dolar").val(value.toFixed(2));
+          //  $("#gas_san_dolar").val(value.toFixed(2));
             var sub = parseFloat($(this).val())+ parseFloat($("#hon_med_pesos").val())+ parseFloat($("#Ane_pesos").val());
             $("#sub_pesos").val(parseFloat(sub));
-            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+          //  $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
 
             var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
             $("#tot_pesos").val(value2.toFixed(2));
-            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+          //  $("#tot_dolar").val((value2/Dolarval).toFixed(2));
         });
         $("#int_pesos").keyup(function(){
             var value = $(this).val()/Dolarval;
-            $("#int_dolar").val(value.toFixed(2));
+        //    $("#int_dolar").val(value.toFixed(2));
 
             var sub = parseFloat($(this).val())+
                 parseFloat($("#hon_med_pesos").val())+
@@ -488,16 +488,16 @@ $res = Variable::find(1, array('valor'));
                 parseFloat($("#gas_san_pesos").val());
 
             $("#sub_pesos").val(parseFloat(sub));
-            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+          //  $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
 
             var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
             $("#tot_pesos").val(value2.toFixed(2));
-            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+         //   $("#tot_dolar").val((value2/Dolarval).toFixed(2));
 
         });
         $("#pro_pesos").keyup(function(){
             var value = $(this).val()/Dolarval;
-            $("#pro_dolar").val(value.toFixed(2));
+        //    $("#pro_dolar").val(value.toFixed(2));
 
             var sub = parseFloat($(this).val())+
                 parseFloat($("#hon_med_pesos").val())+
@@ -505,16 +505,16 @@ $res = Variable::find(1, array('valor'));
                 parseFloat($("#gas_san_pesos").val())+
                 parseFloat($("#int_pesos").val());
             $("#sub_pesos").val(parseFloat(sub));
-            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+          //  $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
 
             var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
             $("#tot_pesos").val(value2.toFixed(2));
-            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+          //  $("#tot_dolar").val((value2/Dolarval).toFixed(2));
 
         });
         $("#otr_gas_pesos").keyup(function(){
             var value = $(this).val()/Dolarval;
-            $("#otr_gas_dolar").val(value.toFixed(2));
+         //   $("#otr_gas_dolar").val(value.toFixed(2));
             var sub = parseFloat($(this).val())+
                 parseFloat($("#hon_med_pesos").val())+
                 parseFloat($("#Ane_pesos").val()) +
@@ -522,26 +522,26 @@ $res = Variable::find(1, array('valor'));
                 parseFloat($("#int_pesos").val() )+
                 parseFloat($("#pro_pesos").val());
             $("#sub_pesos").val(parseFloat(sub));
-            $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
+        //    $("#sub_dolar").val(parseFloat($("#sub_pesos").val()/Dolarval).toFixed(2));
 
             var value2 = parseFloat(sub) - parseFloat($("#desc_pesos").val());
             $("#tot_pesos").val(value2.toFixed(2));
-            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+         //   $("#tot_dolar").val((value2/Dolarval).toFixed(2));
         });
 
         $("#desc_pesos").keyup(function(){
             var value = $(this).val()/Dolarval;
-            $("#desc_dolar").val(value.toFixed(2));
+        //    $("#desc_dolar").val(value.toFixed(2));
 
             var value2 = parseFloat($("#sub_pesos").val()) - parseFloat($(this).val());
             $("#tot_pesos").val(value2.toFixed(2));
-            $("#tot_dolar").val((value2/Dolarval).toFixed(2));
+         //   $("#tot_dolar").val((value2/Dolarval).toFixed(2));
 
         });
 
        $("#tot_pesos").change(function(){
             var value = $(this).val()/Dolarval;
-            $("#tot_dolar").val(value.toFixed(2));
+          //  $("#tot_dolar").val(value.toFixed(2));
         });
 
 
