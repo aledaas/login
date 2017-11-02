@@ -1,4 +1,8 @@
-<script src="<?php echo asset_url("js/vendor/jquery-1.11.1.min.js") ?>"></script>
+<link href="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" rel="stylesheet">
+
+<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
+<script src="//cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
 <?php
 
 if (isset($_GET['id'])){
@@ -188,14 +192,6 @@ if (isset($_POST['submit']) && csrf_filter()) {
                             </div>
                         </div>
 
-
-                        <!-- nombre -->
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="nombre">Nombre<em><?php _e('admin.required') ?></em></label>
-                                <input type="text" name="nombre" id="nombre" value="<?php echo $paciente->nombre ?>" class="form-control">
-                            </div>
-                        </div>
                         <!-- Apellido -->
                         <div class="col-md-4">
                             <div class="form-group">
@@ -203,6 +199,14 @@ if (isset($_POST['submit']) && csrf_filter()) {
                                 <input type="text" name="apellido" id="apellido" value="<?php echo $paciente->apellido ?>" class="form-control">
                             </div>
                         </div>
+                        <!-- nombre -->
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="nombre">Nombre<em><?php _e('admin.required') ?></em></label>
+                                <input type="text" name="nombre" id="nombre" value="<?php echo $paciente->nombre ?>" class="form-control">
+                            </div>
+                        </div>
+
                         <div class="col-md-12"></div>
                         <!-- DNI TIPO -->
                         <div class="col-md-2">
@@ -216,10 +220,17 @@ if (isset($_POST['submit']) && csrf_filter()) {
                             </div>
                         </div>
                         <!-- DNI NRO -->
-                        <div class="col-md-5">
+                        <div class="col-md-2">
                             <div class="form-group">
                                 <label for="dni_nro">DNI NRO<em><?php _e('admin.required') ?></em></label>
                                 <input type="text" name="dni_nro" id="dni_nro" value="<?php echo $paciente->dni_nro ?>" class="form-control">
+                            </div>
+                        </div>
+                        <!-- CELULAR -->
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label for="celular">Celular</label>
+                                <input type="text" name="celular" id="celular" value="<?php echo $paciente->celular ?>" class="form-control">
                             </div>
                         </div>
                         <!-- EMAIL -->
@@ -246,6 +257,15 @@ if (isset($_POST['submit']) && csrf_filter()) {
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                             </div>
                         </div>
+                        <script type="text/javascript">
+                            $(function () {
+                                $('#datetimepickerDesde').datetimepicker({
+                                    viewMode: 'years',
+                                    format: 'YYYY-MM-DD'
+                                });
+                            });
+                        </script>
+
 
                         <!-- ESTADO CIVIL -->
                         <div class="col-md-2">
@@ -374,13 +394,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                                 <input type="text" name="fax" id="fax" value="<?php echo $paciente->fax ?>" class="form-control">
                             </div>
                         </div>
-                        <!-- CELULAR -->
-                        <div class="col-md-3">
-                            <div class="form-group">
-                                <label for="celular">Celular</label>
-                                <input type="text" name="celular" id="celular" value="<?php echo $paciente->celular ?>" class="form-control">
-                            </div>
-                        </div>
+
                         <!-- TELEFONO LABORAL -->
                         <div class="col-md-3">
                             <div class="form-group">
@@ -431,16 +445,24 @@ if (isset($_POST['submit']) && csrf_filter()) {
                         <!-- PRIMER CONSULTA -->
                         <div class="col-md-4">
                             <label for="fec_pconsulta">Fecha Primer Consulta</label>
-                            <div class='input-group date' id='datetimepickerDesde'>
-                                <input type="text" name="fec_pconsulta" id="fec_pconsulta" value="<?php echo $paciente->fec_pconsulta ?>" class="form-control">
+                            <div class='input-group date' id='dateconsulta'>
+                                <input type="text" name="fec_pconsulta" id="fec_pconsulta" value="<?php if(isset($paciente->fec_pconsulta)){ echo $paciente->fec_pconsulta; }else{ echo date("d/m/Y"); } ?>" class="form-control">
                                 <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
                             </div>
+                            <script type="text/javascript">
+                                $(function () {
+                                    $('#dateconsulta').datetimepicker({
+                                        viewMode: 'years',
+                                        format: 'YYYY-MM-DD'
+                                    });
+                                });
+                            </script>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="id_especialidad">Asignar a </label>
-                                <select name="id_especialidad[]" id="id_especialidad" class="selectpicker" multiple data-selected-text-format="count>6" data-width="100%">
-
+                              <!--  <select name="id_especialidad[]" id="id_especialidad" class="selectpicker" multiple data-selected-text-format="count>6" data-width="100%"> -->
+                                    <select name="id_especialidad[]" id="id_especialidad" class="form-control">
                                     <?php
                                     foreach ((array) Especialidades::all() as $especialidades) {
                                        /* $selected=0;
@@ -475,25 +497,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
 		</div>
 </div>
 
-    <?php echo '
-					    	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" />
-							
-							<script src="http://code.jquery.com/ui/1.10.1/jquery-ui.js"></script>
-						
-								<script>
-								$(function () {
-								$("#fecha_nac").datepicker({
-									minDate: 0,
-								});
-                                $("#fec_pconsulta").datepicker({
-									minDate: 0,
-								});
-							
-								});
-								</script>
 
-							';
-    ?>
 
 <?php echo View::make('admin.footer')->render() ?>
 
@@ -559,13 +563,138 @@ if (isset($_POST['submit']) && csrf_filter()) {
 			EasyLogin.admin.getSucursales( $("#marca_id option:selected").val() );
 			
 		});
-	
-	
+
+        $("#fecha_nac").blur(function(){
+            var value = calcularEdad($(this).val());
+            $("#edad").val(value);
+
+        });
 	
 	    
 	});
 
 </script>
+
+    <script type="text/javascript">
+        /**
+         * Funcion que devuelve true o false dependiendo de si la fecha es correcta.
+         * Tiene que recibir el dia, mes y año
+         */
+        function isValidDate(day,month,year)
+        {
+            var dteDate;
+
+            // En javascript, el mes empieza en la posicion 0 y termina en la 11
+            //   siendo 0 el mes de enero
+            // Por esta razon, tenemos que restar 1 al mes
+            month=month-1;
+            // Establecemos un objeto Data con los valore recibidos
+            // Los parametros son: año, mes, dia, hora, minuto y segundos
+            // getDate(); devuelve el dia como un entero entre 1 y 31
+            // getDay(); devuelve un num del 0 al 6 indicando siel dia es lunes,
+            //   martes, miercoles ...
+            // getHours(); Devuelve la hora
+            // getMinutes(); Devuelve los minutos
+            // getMonth(); devuelve el mes como un numero de 0 a 11
+            // getTime(); Devuelve el tiempo transcurrido en milisegundos desde el 1
+            //   de enero de 1970 hasta el momento definido en el objeto date
+            // setTime(); Establece una fecha pasandole en milisegundos el valor de esta.
+            // getYear(); devuelve el año
+            // getFullYear(); devuelve el año
+            dteDate=new Date(year,month,day);
+
+            //Devuelva true o false...
+            return ((day==dteDate.getDate()) && (month==dteDate.getMonth()) && (year==dteDate.getFullYear()));
+        }
+
+        /**
+         * Funcion para validar una fecha
+         * Tiene que recibir:
+         *  La fecha en formato ingles yyyy-mm-dd
+         * Devuelve:
+         *  true-Fecha correcta
+         *  false-Fecha Incorrecta
+         */
+        function validate_fecha(fecha)
+        {
+            var patron=new RegExp("^(19|20)+([0-9]{2})([-])([0-9]{1,2})([-])([0-9]{1,2})$");
+
+            if(fecha.search(patron)==0)
+            {
+                var values=fecha.split("-");
+                if(isValidDate(values[2],values[1],values[0]))
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        /**
+         * Esta función calcula la edad de una persona y los meses
+         * La fecha la tiene que tener el formato yyyy-mm-dd que es
+         * metodo que por defecto lo devuelve el <input type="date">
+         */
+        function calcularEdad()
+        {
+            var fecha=document.getElementById("fecha_nac").value;
+            if(validate_fecha(fecha)==true)
+            {
+                // Si la fecha es correcta, calculamos la edad
+                var values=fecha.split("-");
+                var dia = values[2];
+                var mes = values[1];
+                var ano = values[0];
+
+                // cogemos los valores actuales
+                var fecha_hoy = new Date();
+                var ahora_ano = fecha_hoy.getYear();
+                var ahora_mes = fecha_hoy.getMonth()+1;
+                var ahora_dia = fecha_hoy.getDate();
+
+                // realizamos el calculo
+                var edad = (ahora_ano + 1900) - ano;
+                if ( ahora_mes < mes )
+                {
+                    edad--;
+                }
+                if ((mes == ahora_mes) && (ahora_dia < dia))
+                {
+                    edad--;
+                }
+                if (edad > 1900)
+                {
+                    edad -= 1900;
+                }
+
+                // calculamos los meses
+                var meses=0;
+                if(ahora_mes>mes)
+                    meses=ahora_mes-mes;
+                if(ahora_mes<mes)
+                    meses=12-(mes-ahora_mes);
+                if(ahora_mes==mes && dia>ahora_dia)
+                    meses=11;
+
+                // calculamos los dias
+                var dias=0;
+                if(ahora_dia>dia)
+                    dias=ahora_dia-dia;
+                if(ahora_dia<dia)
+                {
+                    ultimoDiaMes=new Date(ahora_ano, ahora_mes, 0);
+                    dias=ultimoDiaMes.getDate()-(dia-ahora_dia);
+                }
+
+                return edad ;
+            }else{
+                document.getElementById("result").innerHTML="La fecha "+fecha+" es incorrecta";
+            }
+        }
+    </script>
+
+
+
 <?php
 }
 ?>

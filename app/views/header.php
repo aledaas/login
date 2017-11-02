@@ -19,9 +19,13 @@
 	<?php $color = Config::get('app.color_scheme'); ?>
 	<link href="<?php echo asset_url("css/colors/{$color}.css") ?>" rel="stylesheet" id="color_scheme">
 
-	<script src="<?php echo asset_url('js/vendor/jquery-1.11.1.min.js') ?>"></script>
+	<!--<script src="<?php echo asset_url('js/vendor/jquery-1.11.1.min.js') ?>"></script>-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script src="<?php echo asset_url('js/vendor/bootstrap.min.js') ?>"></script>
     <script src="<?php echo asset_url("js/vendor/bootstrap-popover.js") ?>"></script>
+
+    <script src="<?php echo asset_url("js/vendor/bootstrap-datetimepicker.js") ?>" type="text/javascript"></script>
+    <script src="<?php echo asset_url("js/vendor/bootstrap-datetimepicker.es.js") ?>" type="text/javascript"></script>
     <script src="<?php echo asset_url("js/vendor/bootstrap-select.min.js") ?>" type="text/javascript"></script>
 	<script src="<?php echo asset_url('js/easylogin.js') ?>"></script>
 	<script src="<?php echo asset_url('js/main.js') ?>"></script>
