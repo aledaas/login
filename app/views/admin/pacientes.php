@@ -47,18 +47,18 @@
 </form>
 
 <!-- Delete marcas Modal -->
-<div class="modal fade" id="deleteEspecialidadModal" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="deleteFichaModal" tabindex="-1" role="dialog" aria-hidden="true">
 	<div class="modal-dialog modal-md">
 		<div class="modal-content">
-			<form action="deleteEspecialidad" class="ajax-form">
+			<form action="deleteFicha" class="ajax-form">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h4 class="modal-title">Confirme la accion</h4>
 				</div>
 				<div class="modal-body">
 					<div class="alert"></div>
-					<input type="hidden" name="categoria_id">
-	          		<p><?php _e('admin.confirm_delete_categoria', array('categorias' => '<b class="categorias"></b>')) ?></p>
+					<input type="hidden" name="Ficha_id">
+	          		<p><?php _e('admin.confirm_delete_ficha', array('fichas' => '<b class="categorias"></b>')) ?></p>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-default" data-dismiss="modal"><?php _e('admin.no') ?></button>

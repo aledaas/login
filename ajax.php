@@ -546,6 +546,24 @@ function ajax_delete_user()
 	json_message();
 }
 
+function ajax_delete_presu()
+{
+    $id = isset($_POST['presus']) ? (int) $_POST['presus'] : 0;
+    if (Auth::user()->id != $id) {
+        Presupuesto::where('id', $id)->limit(1)->delete();
+    }
+    json_message();
+}
+function ajax_delete_ficha()
+{
+    $id = isset($_POST['Ficha_id']) ? (int) $_POST['Ficha_id'] : 0;
+    if (Auth::user()->id != $id) {
+        Pacientes::where('id', $id)->limit(1)->delete();
+    }
+    json_message();
+}
+
+
 // Delete users (admin)
 function ajax_delete_users()
 {

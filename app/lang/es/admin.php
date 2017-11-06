@@ -80,6 +80,8 @@ return array(
 	'back_to_users' => '&larr; Back to Users',
 	'user_updated' => 'User updated.',
 	'confirm_delete_user' => 'Are you sure you want to permanently delete the user :user ?',
+	'confirm_delete_presu' => 'desea borrar permantentemente el rpesupuesto de :presus ?',
+	'confirm_delete_ficha' => 'desea borrar permantentemente la ficha de :fichas ?',
 	'confirm_delete_users' => 'Are you sure you want to permanently delete :users users ?',
 	'all' => 'All',
 	'404' => 'Error 404',

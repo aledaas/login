@@ -137,8 +137,8 @@ jQuery(function ($) {
                     render: function (d, t, r) {
                         // Render the actions buttons
                         return '<a href="?p=ficha&id='+r[0]+'" title="Entrar a la ficha"><span class="glyphicon glyphicon-edit"></span></a> '+
-                            '<a href="javascript:EasyLogin.admin.composeEmail(\''+r[2]+'\')" title="Ennviar Email">' +
-                            '<span class="glyphicon glyphicon-envelope"></span></a> ' +
+                            '<a href="javascript:EasyLogin.admin.deleteFicha('+r[0]+', \''+(r[1]||r[2])+'\')" ' +
+                            'title="Borrar Ficha"><span class="glyphicon glyphicon-trash"></span></a> ' +
                             '<a href="?p=presu&pac_id='+r[0]+'"" title="Hacer/ver Presupuestos">' +
                             '<span class="glyphicon glyphicon-paperclip"></span></a> ';
                     }
@@ -168,14 +168,14 @@ jQuery(function ($) {
 
             if (!length) return;
 
-            var modal = $('#deleteUsersModal');
-            modal.find('input[name="users"]').val($form.serialize());
-            modal.find('.users').text(length);
+            var modal = $('#deleteFichaModal');
+            modal.find('input[name="Ficha_id"]').val($form.serialize());
+            modal.find('.fichas').text(length);
             modal.modal('show');
 
             // Register ajax form callback
-            EasyLogin.ajaxFormCb.deleteUsers = function () {
-                usersDataTable.draw();
+            EasyLogin.ajaxFormCb.deleteFicha = function () {
+                pacientesDataTable.draw();
                 modal.modal('hide');
             };
         });
@@ -210,7 +210,7 @@ jQuery(function ($) {
                     searchable: false,
                     render: function (d) {
                         // Render checkbox for selecting the user
-                        return '<input type="checkbox" name="pacientes[]" value="'+d+'" class="chb-select">';
+                        return '<input type="checkbox" name="presu[]" value="'+d+'" class="chb-select">';
                     }
                 },
                 null,null, null, null,null,null,
@@ -220,7 +220,8 @@ jQuery(function ($) {
                     render: function (d, t, r) {
                         // Render the actions buttons
                         return '<a href="?p=presu&id='+r[0]+'" title="Ver Presupuesto">' +
-                                    '<span class="glyphicon glyphicon-edit"></span></a> ';
+                                    '<span class="glyphicon glyphicon-edit"></span></a>'+
+                        '<a href="javascript:EasyLogin.admin.deletePresu('+r[0]+', \''+(r[1]||r[2])+'\')" title="Borrar Presupuesto"><span class="glyphicon glyphicon-trash"></span></a>';
                     }
                 }
             ]
@@ -248,14 +249,14 @@ jQuery(function ($) {
 
             if (!length) return;
 
-            var modal = $('#deleteUsersModal');
-            modal.find('input[name="users"]').val($form.serialize());
+            var modal = $('#deletePresuModal');
+            modal.find('input[name="presus"]').val($form.serialize());
             modal.find('.users').text(length);
             modal.modal('show');
 
             // Register ajax form callback
-            EasyLogin.ajaxFormCb.deleteUsers = function () {
-                usersDataTable.draw();
+            EasyLogin.ajaxFormCb.deletePresu = function () {
+                pacientesDataTable.draw();
                 modal.modal('hide');
             };
         });
@@ -273,9 +274,36 @@ jQuery(function ($) {
         });
     };
 
-	// Delete User
-	EasyLogin.admin.deleteUser = function (userId, username) {
-		var modal = $('#deleteUserModal');
+    EasyLogin.admin.deletePresu = function (userId, username) {
+        var modal = $('#deletePresuModal');
+        modal.find('input[name="presus"]').val(userId);
+        modal.find('.presus').text(username);
+        modal.modal('show');
+
+        // Register ajax form callback
+        EasyLogin.ajaxFormCb.deletePresu = function () {
+            pacientesDataTable.draw();
+            modal.modal('hide');
+        };
+    };
+
+    EasyLogin.admin.deleteFicha = function (userId, username) {
+        var modal = $('#deleteFichaModal');
+        modal.find('input[name="Ficha_id"]').val(userId);
+        modal.find('.fichas').text(username);
+        modal.modal('show');
+
+        // Register ajax form callback
+        EasyLogin.ajaxFormCb.deleteFicha = function () {
+            pacientesDataTable.draw();
+            modal.modal('hide');
+        };
+    };
+
+
+    // Delete User
+    EasyLogin.admin.deleteUser = function (userId, username) {
+        var modal = $('#deleteUserModal');
         modal.find('input[name="user_id"]').val(userId);
         modal.find('.user').text(username);
         modal.modal('show');
@@ -285,7 +313,7 @@ jQuery(function ($) {
             usersDataTable.draw();
             modal.modal('hide');
         };
-	};
+    };
 	EasyLogin.admin.deleteEspecialidad = function (id, nombre) {
 	    var modal = $('#deleteEspecialidadModal');
 	    modal.find('input[name="id"]').val(id);
