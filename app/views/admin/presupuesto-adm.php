@@ -112,7 +112,6 @@ if (isset($_GET['pac_id'])){
 
 ?>
 <h3 class="page-header">Presupuesto para <?php echo $paciente->nombre."".$paciente->apellido ?> </h3>
-<input name="imprimir" type="button" onClick="window.print();" value="Imprimir">
 <div class="row">
 	<div class="col-md-12">
 
@@ -164,7 +163,7 @@ if (isset($_GET['pac_id'])){
                     <label for="tratamiento">Tratamientos <em><?php _e('admin.required') ?></em></label>
                     <select name="tratamiento" id="tratamiento" class="form-control">
                     <?php foreach ((array) Tratamientos::all() as $tratamiento){
-                        echo '<option value="'.$tratamiento->id.'">'.$tratamiento->tratamiento.'</option>';
+                        echo '<option value="'.$tratamiento->id.'" '. ($tratamiento->id == $presupuesto->id ? 'selected' : '').'>'.$tratamiento->tratamiento.'</option>';
                     }?>
                     </select>
                 </div>

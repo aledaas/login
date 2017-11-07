@@ -220,8 +220,10 @@ jQuery(function ($) {
                     render: function (d, t, r) {
                         // Render the actions buttons
                         return '<a href="?p=presu&id='+r[0]+'" title="Ver Presupuesto">' +
-                                    '<span class="glyphicon glyphicon-edit"></span></a>'+
-                        '<a href="javascript:EasyLogin.admin.deletePresu('+r[0]+', \''+(r[1]||r[2])+'\')" title="Borrar Presupuesto"><span class="glyphicon glyphicon-trash"></span></a>';
+                                    '<span class="glyphicon glyphicon-edit"></span></a>   '+
+                        '<a href="javascript:EasyLogin.admin.deletePresu('+r[0]+', \''+(r[1]||r[2])+'\')" ' +
+                            'title="Borrar Presupuesto"><span class="glyphicon glyphicon-trash"></span></a>   '+
+                            '<a href="/presuprint.php?id='+r[0]+'" onclick="window.open(this.href).print(); return false"><span class="glyphicon glyphicon-print"></span></a>';
                     }
                 }
             ]
