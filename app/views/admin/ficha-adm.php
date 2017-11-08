@@ -452,8 +452,8 @@ if (isset($_POST['submit']) && csrf_filter()) {
                             <script type="text/javascript">
                                 $(function () {
                                     $('#dateconsulta').datetimepicker({
-                                        viewMode: 'years',
-                                        format: 'YYYY-MM-DD'
+                                       // viewMode: 'years',
+                                        format: 'DD/MM/YYYY'
                                     });
                                 });
                             </script>
