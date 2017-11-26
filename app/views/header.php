@@ -81,7 +81,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#"
+                        <a href="pacientes.php?p=tratamientos"
                            class="nav-btn"
                            data-toggle="tooltip"
                            data-placement="bottom"

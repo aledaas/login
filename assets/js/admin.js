@@ -139,8 +139,10 @@ jQuery(function ($) {
                         return '<a href="?p=ficha&id='+r[0]+'" title="Entrar a la ficha"><span class="glyphicon glyphicon-edit"></span></a> '+
                             '<a href="javascript:EasyLogin.admin.deleteFicha('+r[0]+', \''+(r[1]||r[2])+'\')" ' +
                             'title="Borrar Ficha"><span class="glyphicon glyphicon-trash"></span></a> ' +
-                            '<a href="?p=presu&pac_id='+r[0]+'"" title="Hacer/ver Presupuestos">' +
-                            '<span class="glyphicon glyphicon-paperclip"></span></a> ';
+                            '<a href="?p=presu&pac_id='+r[0]+'"" title="Nuevo Presupuesto">' +
+                            '<span class="glyphicon glyphicon-paperclip"></span></a> '+
+                            '<a href="?p=trat&pac_id='+r[0]+'"" title="Nuevo Tratamiento">' +
+                            '<span class="glyphicon glyphicon-th-list"></span></a> ';
                     }
                 }
             ]
@@ -224,6 +226,87 @@ jQuery(function ($) {
                         '<a href="javascript:EasyLogin.admin.deletePresu('+r[0]+', \''+(r[1]||r[2])+'\')" ' +
                             'title="Borrar Presupuesto"><span class="glyphicon glyphicon-trash"></span></a>   '+
                             '<a href="/presuprint.php?id='+r[0]+'" onclick="window.open(this.href).print(); return false"><span class="glyphicon glyphicon-print"></span></a>';
+                    }
+                }
+            ]
+        });
+
+        /*
+         // Search only if the user enters 3 or more characters
+         $('#users_filter input').off().on('input', function (e) {
+         var value = $.trim($(this).val());
+         if (value.length >= 3) usersDataTable.search(value).draw();
+         if (value == '')  usersDataTable.search('').draw();
+         });
+         */
+
+        // Add "Delete" button for deleting multiple users
+        $('#users_length').before('<button type="submit" class="btn btn-danger btn-sm delete-bulk" disabled>'+trans('delete')+'</button>');
+
+        var $form = $('#users_form');
+
+        // Delete users when clicking on the "Delete" button
+        $form.on('submit', function (e) {
+            e.preventDefault();
+
+            var length = $(e.currentTarget).find('.chb-select:checked').length;
+
+            if (!length) return;
+
+            var modal = $('#deletePresuModal');
+            modal.find('input[name="presus"]').val($form.serialize());
+            modal.find('.users').text(length);
+            modal.modal('show');
+
+            // Register ajax form callback
+            EasyLogin.ajaxFormCb.deletePresu = function () {
+                pacientesDataTable.draw();
+                modal.modal('hide');
+            };
+        });
+
+        // Filter users by the role when clicking on a role
+        $form.find('.role-filter li').on('click', 'a', function (e) {
+            e.preventDefault();
+
+            if ($(e.delegateTarget).hasClass('active')) return;
+
+            usersDataTable.column(6).search( $(this).attr('data-role') ).draw();
+
+            $(e.delegateTarget).parent().find('li.active').removeClass('active');
+            $(e.delegateTarget).addClass('active');
+        });
+    };
+
+
+  // pacientes tratamientos
+    EasyLogin.admin.tratamientosDT = function () {
+
+
+        pacientesDataTable = $('#pacientes').DataTable({
+            serverSide: true,
+            ajax: {
+                url: EasyLogin.options.ajaxUrl,
+                data: {action: 'get_tratamientos'}
+            },
+            language: EasyLogin.options.datatables,
+            order: [[1, 'desc']],
+            columns: [
+                {
+                    orderable: false,
+                    searchable: false,
+                    render: function (d) {
+                        // Render checkbox for selecting the user
+                        return '<input type="checkbox" name="presu[]" value="'+d+'" class="chb-select">';
+                    }
+                },
+                null,null, null, null,null,
+                {
+                    searchable: false,
+                    orderable: false,
+                    render: function (d, t, r) {
+                        // Render the actions buttons
+                        return '<a href="#" title="Borrar Tratamiento"><span class="glyphicon glyphicon-trash"></span></a>   ';
                     }
                 }
             ]

@@ -12,9 +12,9 @@ $page = isset($_GET['p']) ? $_GET['p'] : 'account';
 	<div class="col-md-2">
 		<ul class="nav nav-pills nav-stacked">
             <li <?php echo $page == 'ficha' ? 'class="active"':'' ?>><a href="?p=ficha">Nuevo paciente</a></li>
-            <li <?php echo $page == 'tratamientos' ? 'class="active"':'' ?>><a href="?p=pacientes">Fichas</a></li>
-		<!--	<li <?php echo $page == 'consultas' ? 'class="active"':'' ?>><a href="?p=consultas">Consultas</a></li> -->
+            <li <?php echo $page == 'pacientes' ? 'class="active"':'' ?>><a href="?p=pacientes">Fichas</a></li>
 			<li <?php echo $page == 'presu-list' ? 'class="active"':'' ?>><a href="?p=presu-list">Presupuestos</a></li>
+			<li <?php echo $page == 'tratamientos' ? 'class="active"':'' ?>><a href="?p=tratamientos">Tratamientos</a></li>
 		</ul>
 	</div>
 	<div class="col-md-10">
@@ -101,9 +101,18 @@ switch ($page) {
     case 'presu':
         echo View::make('admin.presupuesto-adm')->render();
         break;
+    // tratamientos
+    case 'trat':
+        echo View::make('admin.tratamiento-adm')->render();
+        break;
 // presupuestos
     case 'presu-list':
         echo View::make('admin.presupuestos')->render();
+        break;
+
+// tratamientos
+    case 'tratamientos':
+        echo View::make('admin.tratamientos')->render();
         break;
 
 	// Connect
