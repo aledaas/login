@@ -24,7 +24,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://54.86.17.52/login',
+	'url' => 'http://clinicahoogstra.turnos-online.com',
 
 
 	/*
@@ -91,7 +91,7 @@ return array(
 	|
 	*/
 
-	'key' => '',
+	'key' => 'ps35lVqcPyeqnCzbUXEbcPczscV2vnzY',
 
 	/*
 	|--------------------------------------------------------------------------
