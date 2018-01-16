@@ -24,7 +24,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://local.turnos.com',
+    'url' => 'http://clinicahoogstra.turnos-online.com',
 
 
 	/*
