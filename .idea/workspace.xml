@@ -1,0 +1,1910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4d3fe320-c823-497f-9ebf-aaaa7cb3a785" name="Default" comment="fecha primer consulta">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/config/database.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/ajax-loader.gif" afterPath="$PROJECT_DIR$/assets/img/ajax-loader.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/avatar.png" afterPath="$PROJECT_DIR$/assets/img/avatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/delete.png" afterPath="$PROJECT_DIR$/assets/img/delete.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/favicon.png" afterPath="$PROJECT_DIR$/assets/img/favicon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/flags/de.png" afterPath="$PROJECT_DIR$/assets/img/flags/de.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/flags/en.png" afterPath="$PROJECT_DIR$/assets/img/flags/en.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/flags/es.png" afterPath="$PROJECT_DIR$/assets/img/flags/es.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/flags/jp.png" afterPath="$PROJECT_DIR$/assets/img/flags/jp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/flags/ro.png" afterPath="$PROJECT_DIR$/assets/img/flags/ro.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/icon-ccw.png" afterPath="$PROJECT_DIR$/assets/img/icon-ccw.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/icon-cw.png" afterPath="$PROJECT_DIR$/assets/img/icon-cw.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/replied.png" afterPath="$PROJECT_DIR$/assets/img/replied.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/facebook.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/facebook.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/foursquare.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/foursquare.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/github.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/github.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/google.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/google.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/instagram.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/instagram.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/linkedin.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/linkedin.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/microsoft.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/microsoft.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/soundcloud.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/soundcloud.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/twitter.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/twitter.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/vkontakte.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/vkontakte.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/social-icons/yammer.png" afterPath="$PROJECT_DIR$/assets/img/social-icons/yammer.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/sort_asc.png" afterPath="$PROJECT_DIR$/assets/img/sort_asc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/sort_asc_disabled.png" afterPath="$PROJECT_DIR$/assets/img/sort_asc_disabled.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/sort_both.png" afterPath="$PROJECT_DIR$/assets/img/sort_both.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/sort_desc.png" afterPath="$PROJECT_DIR$/assets/img/sort_desc.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/sort_desc_disabled.png" afterPath="$PROJECT_DIR$/assets/img/sort_desc_disabled.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/spinner.gif" afterPath="$PROJECT_DIR$/assets/img/spinner.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.txt" afterPath="$PROJECT_DIR$/CHANGELOG.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.txt" afterPath="$PROJECT_DIR$/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activate.php" afterPath="$PROJECT_DIR$/activate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/activation.php" afterPath="$PROJECT_DIR$/activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin.php" afterPath="$PROJECT_DIR$/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ajax.php" afterPath="$PROJECT_DIR$/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/.htaccess" afterPath="$PROJECT_DIR$/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_adminer/adminer.css" afterPath="$PROJECT_DIR$/app/_adminer/adminer.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_adminer/editor.php" afterPath="$PROJECT_DIR$/app/_adminer/editor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/_adminer/index.php" afterPath="$PROJECT_DIR$/app/_adminer/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/.gitignore" afterPath="$PROJECT_DIR$/app/config/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/auth.php" afterPath="$PROJECT_DIR$/app/config/auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/comments.php" afterPath="$PROJECT_DIR$/app/config/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/mail.php" afterPath="$PROJECT_DIR$/app/config/mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/pms.php" afterPath="$PROJECT_DIR$/app/config/pms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.php" afterPath="$PROJECT_DIR$/app/config/services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/session.php" afterPath="$PROJECT_DIR$/app/config/session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/smilies.php" afterPath="$PROJECT_DIR$/app/config/smilies.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/userfields.php" afterPath="$PROJECT_DIR$/app/config/userfields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/events.php" afterPath="$PROJECT_DIR$/app/events.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/init.php" afterPath="$PROJECT_DIR$/app/init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/admin.php" afterPath="$PROJECT_DIR$/app/lang/_old/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/comments.php" afterPath="$PROJECT_DIR$/app/lang/_old/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/datatables.php" afterPath="$PROJECT_DIR$/app/lang/_old/datatables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/emails.php" afterPath="$PROJECT_DIR$/app/lang/_old/emails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/errors.php" afterPath="$PROJECT_DIR$/app/lang/_old/errors.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/imgpicker.php" afterPath="$PROJECT_DIR$/app/lang/_old/imgpicker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/main.php" afterPath="$PROJECT_DIR$/app/lang/_old/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/options.php" afterPath="$PROJECT_DIR$/app/lang/_old/options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/userfields.php" afterPath="$PROJECT_DIR$/app/lang/_old/userfields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/_old/validation.php" afterPath="$PROJECT_DIR$/app/lang/_old/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/admin.php" afterPath="$PROJECT_DIR$/app/lang/es/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/comments.php" afterPath="$PROJECT_DIR$/app/lang/es/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/datatables.php" afterPath="$PROJECT_DIR$/app/lang/es/datatables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/emails.php" afterPath="$PROJECT_DIR$/app/lang/es/emails.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/errors.php" afterPath="$PROJECT_DIR$/app/lang/es/errors.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/imgpicker.php" afterPath="$PROJECT_DIR$/app/lang/es/imgpicker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/main.php" afterPath="$PROJECT_DIR$/app/lang/es/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/options.php" afterPath="$PROJECT_DIR$/app/lang/es/options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/userfields.php" afterPath="$PROJECT_DIR$/app/lang/es/userfields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/lang/es/validation.php" afterPath="$PROJECT_DIR$/app/lang/es/validation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Comment.php" afterPath="$PROJECT_DIR$/app/models/Comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/CommentVote.php" afterPath="$PROJECT_DIR$/app/models/CommentVote.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Especialidades.php" afterPath="$PROJECT_DIR$/app/models/Especialidades.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Option.php" afterPath="$PROJECT_DIR$/app/models/Option.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Pacientes.php" afterPath="$PROJECT_DIR$/app/models/Pacientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Presupuesto.php" afterPath="$PROJECT_DIR$/app/models/Presupuesto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Role.php" afterPath="$PROJECT_DIR$/app/models/Role.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Tratamientos.php" afterPath="$PROJECT_DIR$/app/models/Tratamientos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/User.php" afterPath="$PROJECT_DIR$/app/models/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/Variable.php" afterPath="$PROJECT_DIR$/app/models/Variable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/.gitignore" afterPath="$PROJECT_DIR$/app/storage/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/storage/sessions/.gitignore" afterPath="$PROJECT_DIR$/app/storage/sessions/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/404.php" afterPath="$PROJECT_DIR$/app/views/admin/404.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/comment-edit.php" afterPath="$PROJECT_DIR$/app/views/admin/comment-edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/comments.php" afterPath="$PROJECT_DIR$/app/views/admin/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/config-edit.php" afterPath="$PROJECT_DIR$/app/views/admin/config-edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/config.php" afterPath="$PROJECT_DIR$/app/views/admin/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/dashboard.php" afterPath="$PROJECT_DIR$/app/views/admin/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/especialidades-new.php" afterPath="$PROJECT_DIR$/app/views/admin/especialidades-new.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/especialidades.php" afterPath="$PROJECT_DIR$/app/views/admin/especialidades.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/ficha-adm.php" afterPath="$PROJECT_DIR$/app/views/admin/ficha-adm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/footer.php" afterPath="$PROJECT_DIR$/app/views/admin/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/header.php" afterPath="$PROJECT_DIR$/app/views/admin/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/login.php" afterPath="$PROJECT_DIR$/app/views/admin/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/message-new.php" afterPath="$PROJECT_DIR$/app/views/admin/message-new.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/message-reply.php" afterPath="$PROJECT_DIR$/app/views/admin/message-reply.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/messages.php" afterPath="$PROJECT_DIR$/app/views/admin/messages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/options-app.php" afterPath="$PROJECT_DIR$/app/views/admin/options-app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/options-auth.php" afterPath="$PROJECT_DIR$/app/views/admin/options-auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/options-comments.php" afterPath="$PROJECT_DIR$/app/views/admin/options-comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/options-mail.php" afterPath="$PROJECT_DIR$/app/views/admin/options-mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/options-pms.php" afterPath="$PROJECT_DIR$/app/views/admin/options-pms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/options-raw.php" afterPath="$PROJECT_DIR$/app/views/admin/options-raw.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/options-services.php" afterPath="$PROJECT_DIR$/app/views/admin/options-services.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/pacientes.php" afterPath="$PROJECT_DIR$/app/views/admin/pacientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/presupuesto-adm.php" afterPath="$PROJECT_DIR$/app/views/admin/presupuesto-adm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/restricted.php" afterPath="$PROJECT_DIR$/app/views/admin/restricted.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/user-edit.php" afterPath="$PROJECT_DIR$/app/views/admin/user-edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/user-field-edit.php" afterPath="$PROJECT_DIR$/app/views/admin/user-field-edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/user-fields.php" afterPath="$PROJECT_DIR$/app/views/admin/user-fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/user-new.php" afterPath="$PROJECT_DIR$/app/views/admin/user-new.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/user-role-delete.php" afterPath="$PROJECT_DIR$/app/views/admin/user-role-delete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/user-role-edit.php" afterPath="$PROJECT_DIR$/app/views/admin/user-role-edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/user-roles.php" afterPath="$PROJECT_DIR$/app/views/admin/user-roles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/users.php" afterPath="$PROJECT_DIR$/app/views/admin/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/comments.php" afterPath="$PROJECT_DIR$/app/views/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/activation.php" afterPath="$PROJECT_DIR$/app/views/emails/activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/comment.php" afterPath="$PROJECT_DIR$/app/views/emails/comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/email.php" afterPath="$PROJECT_DIR$/app/views/emails/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/message.php" afterPath="$PROJECT_DIR$/app/views/emails/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/new_user.php" afterPath="$PROJECT_DIR$/app/views/emails/new_user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/reminder.php" afterPath="$PROJECT_DIR$/app/views/emails/reminder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/emails/template.php" afterPath="$PROJECT_DIR$/app/views/emails/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/footer.php" afterPath="$PROJECT_DIR$/app/views/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/header.php" afterPath="$PROJECT_DIR$/app/views/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals/activation.php" afterPath="$PROJECT_DIR$/app/views/modals/activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals/load.php" afterPath="$PROJECT_DIR$/app/views/modals/load.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals/login.php" afterPath="$PROJECT_DIR$/app/views/modals/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals/pms.php" afterPath="$PROJECT_DIR$/app/views/modals/pms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals/reminder.php" afterPath="$PROJECT_DIR$/app/views/modals/reminder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals/settings.php" afterPath="$PROJECT_DIR$/app/views/modals/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/modals/signup.php" afterPath="$PROJECT_DIR$/app/views/modals/signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/admin.css" afterPath="$PROJECT_DIR$/assets/css/admin.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/bootstrap-custom.css" afterPath="$PROJECT_DIR$/assets/css/bootstrap-custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/colors/blue.css" afterPath="$PROJECT_DIR$/assets/css/colors/blue.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/colors/coffee.css" afterPath="$PROJECT_DIR$/assets/css/colors/coffee.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/colors/dark.css" afterPath="$PROJECT_DIR$/assets/css/colors/dark.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/colors/ectoplasm.css" afterPath="$PROJECT_DIR$/assets/css/colors/ectoplasm.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/colors/light.css" afterPath="$PROJECT_DIR$/assets/css/colors/light.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/colors/midnight.css" afterPath="$PROJECT_DIR$/assets/css/colors/midnight.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/comments.css" afterPath="$PROJECT_DIR$/assets/css/comments.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/flat.css" afterPath="$PROJECT_DIR$/assets/css/flat.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/main.css" afterPath="$PROJECT_DIR$/assets/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/modal-only.css" afterPath="$PROJECT_DIR$/assets/css/modal-only.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/pms.css" afterPath="$PROJECT_DIR$/assets/css/pms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/bootstrap-datetimepicker.css" afterPath="$PROJECT_DIR$/assets/css/vendor/bootstrap-datetimepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/bootstrap-datetimepicker.min.css" afterPath="$PROJECT_DIR$/assets/css/vendor/bootstrap-datetimepicker.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/bootstrap-noconflict.css" afterPath="$PROJECT_DIR$/assets/css/vendor/bootstrap-noconflict.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/bootstrap-noconflict.min.css" afterPath="$PROJECT_DIR$/assets/css/vendor/bootstrap-noconflict.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/bootstrap-select.min.css" afterPath="$PROJECT_DIR$/assets/css/vendor/bootstrap-select.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/css/vendor/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/dataTables.bootstrap.css" afterPath="$PROJECT_DIR$/assets/css/vendor/dataTables.bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/datepicker.css" afterPath="$PROJECT_DIR$/assets/css/vendor/datepicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/fileinput.css" afterPath="$PROJECT_DIR$/assets/css/vendor/fileinput.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/imgpicker.css" afterPath="$PROJECT_DIR$/assets/css/vendor/imgpicker.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/vendor/magicsuggest-min.css" afterPath="$PROJECT_DIR$/assets/css/vendor/magicsuggest-min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/flags/Get more flag icons famfamfam.com.url" afterPath="$PROJECT_DIR$/assets/img/flags/Get more flag icons famfamfam.com.url" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/smilies/.gitignore" afterPath="$PROJECT_DIR$/assets/img/smilies/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/admin.js" afterPath="$PROJECT_DIR$/assets/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/comments.js" afterPath="$PROJECT_DIR$/assets/js/comments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/easylogin.js" afterPath="$PROJECT_DIR$/assets/js/easylogin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/embed-comments.js" afterPath="$PROJECT_DIR$/assets/js/embed-comments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/pms.js" afterPath="$PROJECT_DIR$/assets/js/pms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datepicker.es.js" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datepicker.es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datepicker.js" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datetimepicker.es.js" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datetimepicker.es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datetimepicker.fr.js" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datetimepicker.fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap-datetimepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap-popover.js" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap-popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap-select.js.map" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap-select.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap-select.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap-select.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/assets/js/vendor/dataTables.bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/fileinput.js" afterPath="$PROJECT_DIR$/assets/js/vendor/fileinput.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/iframeResizer.contentWindow.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/iframeResizer.contentWindow.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/iframeResizer.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/iframeResizer.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.Jcrop.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.Jcrop.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.autosize.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.autosize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.dataTables.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.dataTables.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.imgpicker.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.imgpicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.imgpickerNoSirve.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.imgpickerNoSirve.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.timeago.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.timeago.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.uploadify.3.1.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.uploadify.3.1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/jquery.uploadify.3.1.min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/jquery.uploadify.3.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/magicsuggest-min.js" afterPath="$PROJECT_DIR$/assets/js/vendor/magicsuggest-min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/vendor/tmpl.js" afterPath="$PROJECT_DIR$/assets/js/vendor/tmpl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/comments.php" afterPath="$PROJECT_DIR$/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.sql" afterPath="$PROJECT_DIR$/database.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/embed-comments.php" afterPath="$PROJECT_DIR$/embed-comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/comments.sql" afterPath="$PROJECT_DIR$/extra/comments.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/database-php-5.3.3.sql" afterPath="$PROJECT_DIR$/extra/database-php-5.3.3.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/activate.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/activate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/activation.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/comments.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/index.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/login.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/logout.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/logout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/oauth.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/oauth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/profile.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/reminder.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/reminder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/reset.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/reset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/settings.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic-ajax/signup.php" afterPath="$PROJECT_DIR$/extra/examples/basic-ajax/signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/activate.php" afterPath="$PROJECT_DIR$/extra/examples/basic/activate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/activation.php" afterPath="$PROJECT_DIR$/extra/examples/basic/activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/comments.php" afterPath="$PROJECT_DIR$/extra/examples/basic/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/index.php" afterPath="$PROJECT_DIR$/extra/examples/basic/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/login.php" afterPath="$PROJECT_DIR$/extra/examples/basic/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/logout.php" afterPath="$PROJECT_DIR$/extra/examples/basic/logout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/oauth.php" afterPath="$PROJECT_DIR$/extra/examples/basic/oauth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/profile.php" afterPath="$PROJECT_DIR$/extra/examples/basic/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/reminder.php" afterPath="$PROJECT_DIR$/extra/examples/basic/reminder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/reset.php" afterPath="$PROJECT_DIR$/extra/examples/basic/reset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/settings.php" afterPath="$PROJECT_DIR$/extra/examples/basic/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/basic/signup.php" afterPath="$PROJECT_DIR$/extra/examples/basic/signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/activate.php" afterPath="$PROJECT_DIR$/extra/examples/inline/activate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/activation.php" afterPath="$PROJECT_DIR$/extra/examples/inline/activation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/contact.php" afterPath="$PROJECT_DIR$/extra/examples/inline/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/index.php" afterPath="$PROJECT_DIR$/extra/examples/inline/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/login.php" afterPath="$PROJECT_DIR$/extra/examples/inline/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/logout.php" afterPath="$PROJECT_DIR$/extra/examples/inline/logout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/oauth.php" afterPath="$PROJECT_DIR$/extra/examples/inline/oauth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/profile.php" afterPath="$PROJECT_DIR$/extra/examples/inline/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/reminder.php" afterPath="$PROJECT_DIR$/extra/examples/inline/reminder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/reset.php" afterPath="$PROJECT_DIR$/extra/examples/inline/reset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/settings.php" afterPath="$PROJECT_DIR$/extra/examples/inline/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/inline/signup.php" afterPath="$PROJECT_DIR$/extra/examples/inline/signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/modal/comments.php" afterPath="$PROJECT_DIR$/extra/examples/modal/comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/modal/index.php" afterPath="$PROJECT_DIR$/extra/examples/modal/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/modal/oauth.php" afterPath="$PROJECT_DIR$/extra/examples/modal/oauth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/examples/modal/profile.php" afterPath="$PROJECT_DIR$/extra/examples/modal/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/facebook-fix/Facebook.php" afterPath="$PROJECT_DIR$/extra/facebook-fix/Facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/facebook-fix/README.txt" afterPath="$PROJECT_DIR$/extra/facebook-fix/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/facebook-pre-2.8/Facebook.php" afterPath="$PROJECT_DIR$/extra/facebook-pre-2.8/Facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/facebook-pre-2.8/README.txt" afterPath="$PROJECT_DIR$/extra/facebook-pre-2.8/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/generate_key.php" afterPath="$PROJECT_DIR$/extra/generate_key.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/linkedin/index.php" afterPath="$PROJECT_DIR$/extra/linkedin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/mailgun-mandrill-api/.gitignore" afterPath="$PROJECT_DIR$/extra/mailgun-mandrill-api/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extra/php_check.php" afterPath="$PROJECT_DIR$/extra/php_check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.php" afterPath="$PROJECT_DIR$/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logout.php" afterPath="$PROJECT_DIR$/logout.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/oauth.php" afterPath="$PROJECT_DIR$/oauth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pacientes.php" afterPath="$PROJECT_DIR$/pacientes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/profile.php" afterPath="$PROJECT_DIR$/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reminder.php" afterPath="$PROJECT_DIR$/reminder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reset.php" afterPath="$PROJECT_DIR$/reset.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.php" afterPath="$PROJECT_DIR$/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.php" afterPath="$PROJECT_DIR$/signup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.htaccess" afterPath="$PROJECT_DIR$/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/Auth.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/Auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/AuthServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/AuthServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/Manager.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/Manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/OAuth.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/OAuth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/OAuthServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/OAuthServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/PasswordReminder.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/PasswordReminder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/PasswordReminderServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/PasswordReminderServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/Register.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/Register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/RegisterServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/RegisterServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Auth/UserProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Auth/UserProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Comments/Comments.php" afterPath="$PROJECT_DIR$/src/Hazzard/Comments/Comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Comments/CommentsServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Comments/CommentsServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Config/DatabaseLoader.php" afterPath="$PROJECT_DIR$/src/Hazzard/Config/DatabaseLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Config/FileLoader.php" afterPath="$PROJECT_DIR$/src/Hazzard/Config/FileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Config/LoaderInterface.php" afterPath="$PROJECT_DIR$/src/Hazzard/Config/LoaderInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Config/LoaderManager.php" afterPath="$PROJECT_DIR$/src/Hazzard/Config/LoaderManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Config/Repository.php" afterPath="$PROJECT_DIR$/src/Hazzard/Config/Repository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Cookie/CookieJar.php" afterPath="$PROJECT_DIR$/src/Hazzard/Cookie/CookieJar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Cookie/CookieServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Cookie/CookieServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Database/Connection.php" afterPath="$PROJECT_DIR$/src/Hazzard/Database/Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Database/DatabaseServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Database/DatabaseServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Database/Expression.php" afterPath="$PROJECT_DIR$/src/Hazzard/Database/Expression.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Database/JoinClause.php" afterPath="$PROJECT_DIR$/src/Hazzard/Database/JoinClause.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Database/Model.php" afterPath="$PROJECT_DIR$/src/Hazzard/Database/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Database/Query.php" afterPath="$PROJECT_DIR$/src/Hazzard/Database/Query.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Encryption/Encrypter.php" afterPath="$PROJECT_DIR$/src/Hazzard/Encryption/Encrypter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Encryption/EncryptionServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Encryption/EncryptionServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Events/Dispatcher.php" afterPath="$PROJECT_DIR$/src/Hazzard/Events/Dispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Events/EventServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Events/EventServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Exception/ExceptionServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Exception/ExceptionServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Exception/Handler.php" afterPath="$PROJECT_DIR$/src/Hazzard/Exception/Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Exception/PlainDisplayer.php" afterPath="$PROJECT_DIR$/src/Hazzard/Exception/PlainDisplayer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Exception/resources/plain.html" afterPath="$PROJECT_DIR$/src/Hazzard/Exception/resources/plain.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Foundation/AliasLoader.php" afterPath="$PROJECT_DIR$/src/Hazzard/Foundation/AliasLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Foundation/Application.php" afterPath="$PROJECT_DIR$/src/Hazzard/Foundation/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Foundation/ClassLoader.php" afterPath="$PROJECT_DIR$/src/Hazzard/Foundation/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Foundation/ProviderRepository.php" afterPath="$PROJECT_DIR$/src/Hazzard/Foundation/ProviderRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Hashing/BasicHasher.php" afterPath="$PROJECT_DIR$/src/Hazzard/Hashing/BasicHasher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Hashing/BcryptHasher.php" afterPath="$PROJECT_DIR$/src/Hazzard/Hashing/BcryptHasher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Hashing/HashServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Hashing/HashServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Hashing/HasherInterface.php" afterPath="$PROJECT_DIR$/src/Hazzard/Hashing/HasherInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Mail/MailServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Mail/MailServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Mail/Mailer.php" afterPath="$PROJECT_DIR$/src/Hazzard/Mail/Mailer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Mail/MailgunTransport.php" afterPath="$PROJECT_DIR$/src/Hazzard/Mail/MailgunTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Mail/MandrillTransport.php" afterPath="$PROJECT_DIR$/src/Hazzard/Mail/MandrillTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Mail/Message.php" afterPath="$PROJECT_DIR$/src/Hazzard/Mail/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Messages/Contact.php" afterPath="$PROJECT_DIR$/src/Hazzard/Messages/Contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Messages/Message.php" afterPath="$PROJECT_DIR$/src/Hazzard/Messages/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Messages/MessageServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Messages/MessageServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Session/DatabaseSessionHandler.php" afterPath="$PROJECT_DIR$/src/Hazzard/Session/DatabaseSessionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Session/FileSessionHandler.php" afterPath="$PROJECT_DIR$/src/Hazzard/Session/FileSessionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Session/SessionServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Session/SessionServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Session/Store.php" afterPath="$PROJECT_DIR$/src/Hazzard/Session/Store.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/DataTables.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/DataTables.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/App.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/App.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Auth.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Auth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Comments.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Comments.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Config.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Contact.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Cookie.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Cookie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Crypt.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Crypt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/DB.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/DB.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Event.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Facade.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Facade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Hash.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Hash.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Lang.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Lang.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Mail.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Mail.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Message.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/OAuth.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/OAuth.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Password.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Password.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Register.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Register.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Route.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Session.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/UserFields.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/UserFields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Usermeta.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Usermeta.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Validator.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/Validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Facades/View.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Facades/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/ImagePicker.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/ImagePicker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Kses.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Kses.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/MessageBag.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/MessageBag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Recaptcha.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Recaptcha.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/ServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/ServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/Str.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/Str.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Support/helpers.php" afterPath="$PROJECT_DIR$/src/Hazzard/Support/helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Translation/TranslationServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Translation/TranslationServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Translation/Translator.php" afterPath="$PROJECT_DIR$/src/Hazzard/Translation/Translator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/User/Fields.php" afterPath="$PROJECT_DIR$/src/Hazzard/User/Fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/User/FieldsServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/User/FieldsServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/User/Meta.php" afterPath="$PROJECT_DIR$/src/Hazzard/User/Meta.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/User/MetaServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/User/MetaServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Validation/DatabasePresenceVerifier.php" afterPath="$PROJECT_DIR$/src/Hazzard/Validation/DatabasePresenceVerifier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Validation/Factory.php" afterPath="$PROJECT_DIR$/src/Hazzard/Validation/Factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Validation/ValidationServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/Validation/ValidationServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/Validation/Validator.php" afterPath="$PROJECT_DIR$/src/Hazzard/Validation/Validator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/View/Factory.php" afterPath="$PROJECT_DIR$/src/Hazzard/View/Factory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/View/View.php" afterPath="$PROJECT_DIR$/src/Hazzard/View/View.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hazzard/View/ViewServiceProvider.php" afterPath="$PROJECT_DIR$/src/Hazzard/View/ViewServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Exception/Exception.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Exception/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Exception/InvalidExtractorException.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Exception/InvalidExtractorException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Exception/UndefinedExtractorException.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Exception/UndefinedExtractorException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Extractor.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Extractor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/ExtractorInterface.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/ExtractorInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Facebook.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Foursquare.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Foursquare.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/GitHub.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/GitHub.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Google.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Google.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Instagram.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Instagram.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/LazyExtractor.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/LazyExtractor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Linkedin.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Linkedin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Microsoft.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Microsoft.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/SoundCloud.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/SoundCloud.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Twitter.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Twitter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Vkontakte.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Vkontakte.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Yammer.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Extractor/Yammer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/ExtractorFactory.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/ExtractorFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/ExtractorFactoryInterface.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/ExtractorFactoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Utils/ArrayUtils.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Utils/ArrayUtils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OAuth/UserData/Utils/StringUtils.php" afterPath="$PROJECT_DIR$/src/OAuth/UserData/Utils/StringUtils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.php" afterPath="$PROJECT_DIR$/test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/turnos.sql" afterPath="$PROJECT_DIR$/turnos.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/.gitignore" afterPath="$PROJECT_DIR$/uploads/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/LICENSE.md" afterPath="$PROJECT_DIR$/vendor/filp/whoops/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/ErrorException.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/ErrorException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Formatter.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Formatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Frame.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Frame.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/FrameCollection.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/FrameCollection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Inspector.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Exception/Inspector.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/Handler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/HandlerInterface.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/HandlerInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/JsonResponseHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/JsonResponseHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PlainTextHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PlainTextHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/PrettyPageHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/SoapResponseHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/SoapResponseHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Handler/XmlResponseHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Provider/Phalcon/WhoopsServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Provider/Phalcon/WhoopsServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Provider/Silex/WhoopsServiceProvider.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Provider/Silex/WhoopsServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/css/whoops.base.css" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/css/whoops.base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/js/whoops.base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/js/zepto.min.js" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/js/zepto.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/env_details.html.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/env_details.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/frame_code.html.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/frame_code.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/frame_list.html.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/frame_list.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/header.html.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/header.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/layout.html.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Resources/views/layout.html.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Run.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Run.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/Misc.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/Misc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/TemplateHelper.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/Whoops/Util/TemplateHelper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/deprecated/Zend/ExceptionStrategy.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/deprecated/Zend/ExceptionStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/deprecated/Zend/Module.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/deprecated/Zend/Module.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/deprecated/Zend/RouteNotFoundStrategy.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/deprecated/Zend/RouteNotFoundStrategy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/filp/whoops/src/deprecated/Zend/module.config.example.php" afterPath="$PROJECT_DIR$/vendor/filp/whoops/src/deprecated/Zend/module.config.example.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/container/Illuminate/Container/Container.php" afterPath="$PROJECT_DIR$/vendor/illuminate/container/Illuminate/Container/Container.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/illuminate/container/Illuminate/Container/composer.json" afterPath="$PROJECT_DIR$/vendor/illuminate/container/Illuminate/Container/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ircmaxell/password-compat/LICENSE.md" afterPath="$PROJECT_DIR$/vendor/ircmaxell/password-compat/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/ircmaxell/password-compat/lib/password.php" afterPath="$PROJECT_DIR$/vendor/ircmaxell/password-compat/lib/password.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/LICENSE" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/composer.lock" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/AutoLoader.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/AutoLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Consumer/Credentials.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Consumer/Credentials.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Consumer/CredentialsInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Consumer/CredentialsInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Exception/Exception.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Exception/Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/AbstractClient.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/AbstractClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/ClientInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/ClientInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/CurlClient.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/CurlClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/StreamClient.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Client/StreamClient.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Exception/TokenResponseException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Exception/TokenResponseException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Uri/Uri.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Uri/Uri.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Uri/UriFactory.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Uri/UriFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Uri/UriFactoryInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Uri/UriFactoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Uri/UriInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Http/Uri/UriInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Service/AbstractService.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Service/AbstractService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Service/ServiceInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Service/ServiceInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Exception/AuthorizationStateNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Exception/AuthorizationStateNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Exception/StorageException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Exception/StorageException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Exception/TokenNotFoundException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Exception/TokenNotFoundException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Memory.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Memory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Redis.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Redis.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Session.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/Session.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/SymfonySession.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/SymfonySession.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/TokenStorageInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Storage/TokenStorageInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Token/AbstractToken.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Token/AbstractToken.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Token/Exception/ExpiredTokenException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Token/Exception/ExpiredTokenException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Token/TokenInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/Common/Token/TokenInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/AbstractService.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/AbstractService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/BitBucket.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/BitBucket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Etsy.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Etsy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/FitBit.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/FitBit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/FiveHundredPx.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/FiveHundredPx.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Flickr.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Flickr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/QuickBooks.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/QuickBooks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Redmine.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Redmine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/ScoopIt.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/ScoopIt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/ServiceInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/ServiceInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Tumblr.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Tumblr.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Twitter.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Twitter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Xing.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Xing.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Yahoo.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Service/Yahoo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Signature/Exception/UnsupportedHashAlgorithmException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Signature/Exception/UnsupportedHashAlgorithmException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Signature/Signature.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Signature/Signature.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Signature/SignatureInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Signature/SignatureInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Token/StdOAuth1Token.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Token/StdOAuth1Token.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Token/TokenInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth1/Token/TokenInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/AbstractService.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/AbstractService.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Amazon.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Amazon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Bitly.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Bitly.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Bitrix24.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Bitrix24.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Box.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Box.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Buffer.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Buffer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Dailymotion.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Dailymotion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Deezer.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Deezer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Delicious.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Delicious.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/DeviantArt.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/DeviantArt.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Dropbox.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Dropbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/EveOnline.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/EveOnline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Exception/InvalidAccessTypeException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Exception/InvalidAccessTypeException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Exception/InvalidAuthorizationStateException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Exception/InvalidAuthorizationStateException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Exception/InvalidScopeException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Exception/InvalidScopeException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Exception/MissingRefreshTokenException.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Exception/MissingRefreshTokenException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Facebook.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Foursquare.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Foursquare.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/GitHub.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/GitHub.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Google.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Google.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Harvest.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Harvest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Heroku.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Heroku.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Hubic.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Hubic.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Instagram.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Instagram.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/JawboneUP.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/JawboneUP.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Linkedin.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Linkedin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Mailchimp.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Mailchimp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Microsoft.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Microsoft.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Nest.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Nest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Netatmo.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Netatmo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/ParrotFlowerPower.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/ParrotFlowerPower.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Paypal.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Paypal.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Pinterest.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Pinterest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Pocket.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Pocket.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Reddit.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Reddit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/RunKeeper.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/RunKeeper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Salesforce.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Salesforce.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/ServiceInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/ServiceInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/SoundCloud.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/SoundCloud.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Spotify.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Spotify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Strava.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Strava.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Ustream.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Ustream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Vimeo.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Vimeo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Vkontakte.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Vkontakte.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Yahoo.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Yahoo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Yammer.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Service/Yammer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Token/StdOAuth2Token.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Token/StdOAuth2Token.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Token/TokenInterface.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/OAuth2/Token/TokenInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/ServiceFactory.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/ServiceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/bootstrap.php" afterPath="$PROJECT_DIR$/vendor/lusitanian/oauth/src/OAuth/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/LICENSE" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Attachment.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Attachment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/AbstractFilterableInputStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/ArrayByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/ArrayByteStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/FileByteStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ByteStream/TemporaryFileByteStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/GenericFixedWidthReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/UsAsciiReader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReader/Utf8Reader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterReaderFactory/SimpleCharacterReaderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/ArrayCharacterStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/CharacterStream/NgCharacterStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ConfigurableSpool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ConfigurableSpool.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyContainer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/DependencyException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/EmbeddedFile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Base64Encoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/QpEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoder/Rfc2231Encoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoding.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Encoding.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/CommandListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/Event.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventObject.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/EventObject.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/ResponseListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SendListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/SimpleEventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportChangeListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionEvent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Events/TransportExceptionListener.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FailoverTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileSpool.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/FileStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Filterable.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Filterable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/InputByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/InputByteStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/IoException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/IoException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/ArrayKeyCache.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/ArrayKeyCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/DiskKeyCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/KeyCacheInputStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/NullKeyCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/KeyCache/SimpleKeyCacheInputStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/LoadBalancedTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MailTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MailTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/ArrayRecipientIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mailer/RecipientIterator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MemorySpool.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Attachment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/CharsetObserver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/Base64ContentEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/NativeQpContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/NativeQpContentEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/PlainContentEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoderProxy.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/QpContentEncoderProxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ContentEncoder/RawContentEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EmbeddedFile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/EncodingObserver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Grammar.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Grammar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Header.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/Base64HeaderEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderEncoder/QpHeaderEncoder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/HeaderSet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/AbstractHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/DateHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/IdentificationHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/MailboxHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/OpenDKIMHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/ParameterizedHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/PathHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Headers/UnstructuredHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Message.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimeEntity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/MimePart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/ParameterizedHeader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleHeaderSet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Mime/SimpleMimeEntity.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/MimePart.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/NullTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/NullTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/OutputByteStream.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/OutputByteStream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/AntiFloodPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/AntiFloodPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/BandwidthMonitorPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/BandwidthMonitorPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator/Replacements.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Decorator/Replacements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/DecoratorPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ImpersonatePlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Logger.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Logger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/LoggerPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/LoggerPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/ArrayLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Loggers/EchoLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/MessageLogger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Pop/Pop3Exception.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/PopBeforeSmtpPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/RedirectingPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ReporterPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ReporterPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HitReporter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Reporters/HtmlReporter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Sleeper.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Sleeper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/ThrottlerPlugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Timer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Plugins/Timer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Preferences.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Preferences.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ReplacementFilterFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/ReplacementFilterFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/RfcComplianceException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/RfcComplianceException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SendmailTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SignedMessage.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SignedMessage.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/BodySigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DKIMSigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/DomainKeySigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/HeaderSigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/OpenDKIMSigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Signers/SMimeSigner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SmtpTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Spool.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Spool.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SpoolTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/ByteArrayReplacementFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/StreamFilters/StringReplacementFilterFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SwiftException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/SwiftException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/AbstractSmtpTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/CramMd5Authenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/LoginAuthenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/NTLMAuthenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/PlainAuthenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Auth/XOAuth2Authenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/AuthHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/Esmtp/Authenticator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/EsmtpTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/FailoverTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/IoBuffer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/LoadBalancedTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailInvoker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/MailTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/NullTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SendmailTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SimpleMailInvoker.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SmtpAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/SpoolTransport.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Transport/StreamBuffer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/TransportException.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/TransportException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Validate.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/classes/Swift/Validate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/cache_deps.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/message_deps.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/message_deps.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/mime_deps.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/dependency_maps/transport_deps.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/mime_types.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/mime_types.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/preferences.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/preferences.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_init.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_required.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_required.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_required_pear.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swift_required_pear.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" afterPath="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pacientes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pacientes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="103" column="19" lean-forward="true" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pacientes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/pacientes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ficha-adm.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/admin/ficha-adm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="167" column="37" lean-forward="true" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+              <folding>
+                <element signature="e#6816#6842#0#HTML" expanded="true" />
+                <element signature="e#16502#16527#0#HTML" expanded="true" />
+                <element signature="e#21500#21525#0#HTML" expanded="true" />
+                <marker date="1516064180741" expanded="true" signature="4245:4252" ph="×" />
+                <marker date="1516064180741" expanded="true" signature="22322:22363" ph="select * fro... obrasocial" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>presupuest</find>
+      <find>deleteUser</find>
+      <find>confirm_dele</find>
+      <find>admin.confirm_delete_categoria</find>
+      <find>admin.confirm_delete_categori</find>
+      <find>admin.confirm_delete_categor</find>
+      <find>admin.confirm_delete_catego</find>
+      <find>admin.confirm_delete_categ</find>
+      <find>admin.confirm_delete_cate</find>
+      <find>admin.confirm_delete_cat</find>
+      <find>admin.confirm_delete_ca</find>
+      <find>admin.confirm_delete_c</find>
+      <find>admin.confirm_delete_</find>
+      <find>admin.confirm_delete</find>
+      <find>confirm_delete_users</find>
+      <find>confirm_delete_</find>
+      <find>deleteuser</find>
+      <find>usersDataTable</find>
+      <find>deletePresu</find>
+      <find>delete_user</find>
+      <find>pacientesDT</find>
+      <find>selected</find>
+      <find>Oops! Something went wrong.</find>
+      <find>action</find>
+      <find>avatar</find>
+      <find>pacientes</find>
+      <find>ficha</find>
+      <find>presu</find>
+      <find>added</find>
+      <find>histori</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/views/admin/header.php" />
+        <option value="$PROJECT_DIR$/app/models/Variable.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/config.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/config-edit.php" />
+        <option value="$PROJECT_DIR$/edad.php" />
+        <option value="$PROJECT_DIR$/app/lang/_old/admin.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/presupuestos.php" />
+        <option value="$PROJECT_DIR$/app/lang/es/admin.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/pacientes.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/presupuesto-adm.php" />
+        <option value="$PROJECT_DIR$/presuprint.php" />
+        <option value="$PROJECT_DIR$/app/views/header.php" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/app/models/TratamientosPacientes.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/tratamientos.php" />
+        <option value="$PROJECT_DIR$/assets/js/admin.js" />
+        <option value="$PROJECT_DIR$/pacientes.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/tratamiento-adm.php" />
+        <option value="$PROJECT_DIR$/ajax.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/ficha-adm.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/config/database.php" />
+        <option value="$PROJECT_DIR$/app/config/app.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="local.turnos.com" id="57269ea6-214c-4fed-a2c8-3d2e418373c4" name="local.turnos.com" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="turnos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="turnos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="turnos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="turnos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="views">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="admin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="turnos">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="config">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="es" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="turnos" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_adminer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="pacien&#9;FILE&#9;file://C:/xampp/htdocs/turnos/app/views/admin/pacientes.php&#10;pacientes&#9;FILE&#9;file://C:/xampp/htdocs/turnos/pacientes.php&#10;hea&#9;FILE&#9;file://C:/xampp/htdocs/turnos/app/views/header.php&#10;head&#9;FILE&#9;file://C:/xampp/htdocs/turnos/app/views/admin/header.php&#10;ajax&#9;FILE&#9;file://C:/xampp/htdocs/turnos/ajax.php&#10;pacient&#9;FILE&#9;file://C:/xampp/htdocs/turnos/pacientes.php&#10;admin&#9;FILE&#9;file://C:/xampp/htdocs/turnos/assets/js/admin.js&#10;paciente&#9;FILE&#9;file://C:/xampp/htdocs/turnos/app/views/admin/pacientes.php&#10;paci&#9;FILE&#9;file://C:/xampp/htdocs/turnos/pacientes.php&#10;test&#9;FILE&#9;file://C:/xampp/htdocs/turnos/test.php&#10;header&#9;FILE&#9;file://C:/xampp/htdocs/turnos/app/views/header.php&#10;users&#9;FILE&#9;file://C:/xampp/htdocs/turnos/app/views/admin/users.php&#10;boot&#9;FILE&#9;file://C:/xampp/htdocs/turnos/assets/js/vendor/bootstrap-datetimepicker.es.js&#10;test.php&#9;FILE&#9;file://C:/xampp/htdocs/turnos/test.php&#10;ficha&#9;FILE&#9;file://C:/xampp/htdocs/turnos/app/views/admin/ficha-adm.php&#10;aja&#9;FILE&#9;file://C:/xampp/htdocs/turnos/ajax.php&#10;presup&#9;FILE&#9;file://C:/xampp/htdocs/turnos/app/views/admin/presupuesto-adm.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\turnos\app\models" />
+      <recent name="C:\xampp\htdocs\turnos\app\views\admin" />
+      <recent name="C:\xampp\htdocs\turnos" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/_adminer/adminer.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/_adminer/editor.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/_adminer/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/config/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/config/app.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/config/database.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/models/Variable.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/views/admin/config-edit.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/views/admin/config.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/test.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/app/config/turnos.sql</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/turnos.sql</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d3fe320-c823-497f-9ebf-aaaa7cb3a785" name="Default" comment="" />
+      <created>1505489178550</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505489178550</updated>
+      <workItem from="1505489179795" duration="1462000" />
+      <workItem from="1505501537372" duration="14533000" />
+      <workItem from="1505928233008" duration="7045000" />
+      <workItem from="1506445245176" duration="9541000" />
+      <workItem from="1506536452515" duration="43000" />
+      <workItem from="1506538887233" duration="39000" />
+      <workItem from="1507317985564" duration="950000" />
+      <workItem from="1509478380478" duration="732000" />
+      <workItem from="1509576198613" duration="8236000" />
+      <workItem from="1509641106048" duration="3068000" />
+      <workItem from="1509740719544" duration="23043000" />
+      <workItem from="1510182851583" duration="3418000" />
+      <workItem from="1510618006937" duration="1206000" />
+      <workItem from="1511481566726" duration="10472000" />
+      <workItem from="1515112011275" duration="6303000" />
+    </task>
+    <task id="LOCAL-00001" summary="presupuesto almacenar">
+      <created>1505852786146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1505852786146</updated>
+    </task>
+    <task id="LOCAL-00002" summary="presupuesto almacenar">
+      <created>1506445651757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1506445651757</updated>
+    </task>
+    <task id="LOCAL-00003" summary="presupuesto almacenar">
+      <created>1506449803102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1506449803102</updated>
+    </task>
+    <task id="LOCAL-00004" summary="cambios en el formulario de ficha">
+      <created>1509591053277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1509591053277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="cambios en el formulario de presupuesto">
+      <created>1509656204711</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1509656204711</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adminer para turnos">
+      <created>1509741044695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1509741044695</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Agregados de eliminar a fichas y presupuestos">
+      <created>1509932987587</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1509932987587</updated>
+    </task>
+    <task id="LOCAL-00008" summary="imprimir nuevo modelo">
+      <created>1510022310937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1510022310937</updated>
+    </task>
+    <task id="LOCAL-00009" summary="arreglo formato de fecha de la ficha del paciente">
+      <created>1510183203015</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1510183203015</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Tratamientos, listado formulario de alta">
+      <created>1511733048207</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1511733048207</updated>
+    </task>
+    <task id="LOCAL-00011" summary="renovacion master">
+      <created>1516065239545</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1516065239545</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="90091000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4854701" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5470086" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="presupuesto almacenar" />
+    <MESSAGE value="cambios en el formulario de ficha" />
+    <MESSAGE value="cambios en el formulario de presupuesto" />
+    <MESSAGE value="adminer para turnos" />
+    <MESSAGE value="Agregados de eliminar a fichas y presupuestos" />
+    <MESSAGE value="imprimir nuevo modelo" />
+    <MESSAGE value="arreglo formato de fecha de la ficha del paciente" />
+    <MESSAGE value="Tratamientos, listado formulario de alta" />
+    <MESSAGE value="renovacion master" />
+    <option name="LAST_COMMIT_MESSAGE" value="renovacion master" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/views/admin/tratamiento-adm.php</url>
+          <line>27</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/views/admin/tratamiento-adm.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/views/admin/tratamiento-adm.php</url>
+          <line>36</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/views/admin/ficha-adm.php</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="6" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="15" lean-forward="false" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/pacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/ficha-adm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6816#6842#0#HTML" expanded="true" />
+            <element signature="e#16502#16527#0#HTML" expanded="true" />
+            <element signature="e#21500#21525#0#HTML" expanded="true" />
+            <marker date="1516064180741" expanded="true" signature="4245:4252" ph="×" />
+            <marker date="1516064180741" expanded="true" signature="22322:22363" ph="select * fro... obrasocial" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/presupuestos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/config-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/user-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/presupuesto-adm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <marker date="1510021804673" expanded="true" signature="271:273" ph="..." />
+            <marker date="1510021804673" expanded="true" signature="4301:4308" ph="×" />
+            <marker date="1510021804673" expanded="true" signature="19944:20183" ph="..." />
+            <marker date="1510021804673" expanded="true" signature="19972:20160" ph="{...}" />
+            <marker date="1510021804673" expanded="true" signature="20009:20052" ph="{...}" />
+            <marker date="1510021804673" expanded="true" signature="20092:20135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="96" lean-forward="false" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/presupuestos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3655">
+          <caret line="215" column="32" lean-forward="false" selection-start-line="215" selection-start-column="32" selection-end-line="215" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/presupuesto-adm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding>
+            <marker date="1510021804673" expanded="true" signature="271:273" ph="..." />
+            <marker date="1510021804673" expanded="true" signature="4301:4308" ph="×" />
+            <marker date="1510021804673" expanded="true" signature="19944:20183" ph="..." />
+            <marker date="1510021804673" expanded="true" signature="19972:20160" ph="{...}" />
+            <marker date="1510021804673" expanded="true" signature="20009:20052" ph="{...}" />
+            <marker date="1510021804673" expanded="true" signature="20092:20135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="96" lean-forward="false" selection-start-line="16" selection-start-column="96" selection-end-line="16" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/presupuestos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3655">
+          <caret line="215" column="32" lean-forward="false" selection-start-line="215" selection-start-column="32" selection-end-line="215" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="25" lean-forward="false" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/especialidades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Variable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Especialidades.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/user-role-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/user-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/config-edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="40" lean-forward="false" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/vendor/bootstrap-datetimepicker.es.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edad.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="121" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lang/_old/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="133" column="20" lean-forward="true" selection-start-line="133" selection-start-column="20" selection-end-line="133" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/users.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="107" column="59" lean-forward="false" selection-start-line="107" selection-start-column="39" selection-end-line="107" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/presuprint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" column="7" lean-forward="false" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hazzard/Support/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="589" column="9" lean-forward="false" selection-start-line="589" selection-start-column="9" selection-end-line="589" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="144" column="27" lean-forward="false" selection-start-line="144" selection-start-column="27" selection-end-line="144" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/lang/es/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="83" column="80" lean-forward="false" selection-start-line="83" selection-start-column="80" selection-end-line="83" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/presupuestos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/Tratamientos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/TratamientosPacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hazzard/Support/DataTables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-528">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="77" column="110" lean-forward="false" selection-start-line="77" selection-start-column="109" selection-end-line="77" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="87" column="41" lean-forward="false" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="96" column="116" lean-forward="false" selection-start-line="96" selection-start-column="116" selection-end-line="96" selection-end-column="116" />
+          <folding>
+            <element signature="n#ajax_delete_presu#0;n#!!top" expanded="false" />
+            <element signature="n#ajax_delete_users#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="147" column="13" lean-forward="true" selection-start-line="147" selection-start-column="13" selection-end-line="147" selection-end-column="13" />
+          <folding>
+            <element signature="e#8068#11355#0" expanded="false" />
+            <element signature="e#11436#14263#0" expanded="false" />
+            <element signature="e#14328#14690#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/tratamiento-adm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1511732778195" expanded="true" signature="1695:1702" ph="×" />
+            <marker date="1511732778195" expanded="true" signature="3810:4049" ph="..." />
+            <marker date="1511732778195" expanded="true" signature="3838:4026" ph="{...}" />
+            <marker date="1511732778195" expanded="true" signature="3875:3918" ph="{...}" />
+            <marker date="1511732778195" expanded="true" signature="3958:4001" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/presupuesto-adm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1510021804673" expanded="true" signature="271:273" ph="..." />
+            <marker date="1510021804673" expanded="true" signature="4301:4308" ph="×" />
+            <marker date="1510021804673" expanded="true" signature="19944:20183" ph="..." />
+            <marker date="1510021804673" expanded="true" signature="19972:20160" ph="{...}" />
+            <marker date="1510021804673" expanded="true" signature="20009:20052" ph="{...}" />
+            <marker date="1510021804673" expanded="true" signature="20092:20135" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/tratamientos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="26" lean-forward="false" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/ficha-adm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="167" column="37" lean-forward="true" selection-start-line="167" selection-start-column="37" selection-end-line="167" selection-end-column="37" />
+          <folding>
+            <element signature="e#6816#6842#0#HTML" expanded="true" />
+            <element signature="e#16502#16527#0#HTML" expanded="true" />
+            <element signature="e#21500#21525#0#HTML" expanded="true" />
+            <marker date="1516064180741" expanded="true" signature="4245:4252" ph="×" />
+            <marker date="1516064180741" expanded="true" signature="22322:22363" ph="select * fro... obrasocial" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/admin/pacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pacientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="103" column="19" lean-forward="true" selection-start-line="103" selection-start-column="19" selection-end-line="103" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
