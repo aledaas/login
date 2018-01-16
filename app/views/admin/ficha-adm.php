@@ -41,7 +41,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
 	$paciente->obra_social = $_POST['obra_social'];
 	$paciente->plan = $_POST['plan'];
 	$paciente->plan_nro = $_POST['plan_nro'];
-	$paciente->fec_pconsulta = date('Y-m-d H:i:s', strtotime($_POST['fec_pconsulta']));
+	$paciente->fec_pconsulta = date('Y-m-d', strtotime($_POST['fec_pconsulta']));
 //	$paciente->id_especialidad = $_POST['id_especialidad'];
 
 	$foto="";
@@ -81,7 +81,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
         'obra_social' => $_POST['obra_social'],
         'plan' => $_POST['plan'],
         'plan_nro' => $_POST['plan_nro'],
-        'fec_pconsulta' => date('Y-m-d H:i:s', strtotime($_POST['fec_pconsulta'])),
+        'fec_pconsulta' => date('Y-m-d', strtotime($_POST['fec_pconsulta'])),
       //  'id_especialidad' => $_POST['id_especialidad'],
     );
     $rules = array(
@@ -145,9 +145,26 @@ if (isset($_POST['submit']) && csrf_filter()) {
 
                 <?php csrf_input() ?>
 				<div class="tab-content">
+
 					<!-- tab 1 -->
 					<div class="tab-pane active" id ="tab1">
-						<br>
+
+                        <!-- PRIMER CONSULTA -->
+                        <div class="col-md-4">
+                            <label for="fec_pconsulta">Fecha Primer Consulta</label>
+                            <div class='input-group date' id='dateconsulta'>
+                                <input type="text" name="fec_pconsulta" id="fec_pconsulta" value="<?php if(isset($paciente->fec_pconsulta)){ echo $paciente->fec_pconsulta; }else{ echo date("Y-m-d"); } ?>" class="form-control">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                            </div>
+                            <script type="text/javascript">
+                                $(function () {
+                                    $('#dateconsulta').datetimepicker({
+                                        // viewMode: 'years',
+                                        format: 'YYYY-MM-DD'
+                                    });
+                                });
+                            </script>
+                        </div>
                         <!--abatar-->
                         <?php $user = User::find(Auth::user()->id);?>
                         <div class="avatar-container form-group col-md-4">
@@ -442,22 +459,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
                                 <input type="text" name="plan_nro" id="plan_nro" value="<?php echo $paciente->plan_nro ?>" class="form-control">
                             </div>
                         </div>
-                        <!-- PRIMER CONSULTA -->
-                        <div class="col-md-4">
-                            <label for="fec_pconsulta">Fecha Primer Consulta</label>
-                            <div class='input-group date' id='dateconsulta'>
-                                <input type="text" name="fec_pconsulta" id="fec_pconsulta" value="<?php if(isset($paciente->fec_pconsulta)){ echo $paciente->fec_pconsulta; }else{ echo date("d/m/Y"); } ?>" class="form-control">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
-                            </div>
-                            <script type="text/javascript">
-                                $(function () {
-                                    $('#dateconsulta').datetimepicker({
-                                       // viewMode: 'years',
-                                        format: 'DD/MM/YYYY'
-                                    });
-                                });
-                            </script>
-                        </div>
+
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="id_especialidad">Asignar a </label>
