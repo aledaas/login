@@ -33,10 +33,10 @@
 		<thead>
 			<tr>
 				<th><input type="checkbox" class="select-all" value="1"></th>
-				<th>Nombre</th>
-				<th>Apellido</th>
+				<th>Apellido y Nombre</th>
 				<th>Dni</th>
 				<th>Telefono</th>
+				<th>Celular</th>
 
 				<th><?php _e('admin.action') ?></th>
 			</tr>

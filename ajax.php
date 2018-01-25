@@ -51,15 +51,15 @@ function ajax_get_variables(){
 }
 
 function ajax_get_pacientes(){
-    $PacientesTable = Pacientes::getTable();
+    $PacientesTable = V_Pacientes::getTable();
     $columns = array(
-        array('db' => "{$PacientesTable}.id",     'dt' => 0, 'as' => 'id'),
+        array('db' => "{$PacientesTable}.id",'dt' => 0, 'as' => 'id'),
         array('db' => "nombre",     'dt' => 1),
-        array('db' => "apellido",     'dt' => 2),
-        array('db' => "dni_nro",     'dt' => 3),
-        array('db' => "telefono",     'dt' => 4),
+        array('db' => "dni_nro",     'dt' => 2),
+        array('db' => "telefono",     'dt' => 3),
+        array('db' => "celular",     'dt' => 4),
     );
-    $query = Pacientes::where( "{$PacientesTable}.id", '>', "0");
+    $query = V_Pacientes::where( "{$PacientesTable}.id", '>', "0");
     $dt = new Hazzard\Support\DataTables($_GET, $columns, $query);
     echo json_encode($dt->get($PacientesTable.'.id'));
 }
