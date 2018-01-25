@@ -56,8 +56,8 @@ function ajax_get_pacientes(){
         array('db' => "{$PacientesTable}.id",'dt' => 0, 'as' => 'id'),
         array('db' => "nombre",     'dt' => 1),
         array('db' => "dni_nro",     'dt' => 2),
-        array('db' => "telefono",     'dt' => 3),
-        array('db' => "celular",     'dt' => 4),
+        array('db' => "celular",     'dt' => 3),
+
     );
     $query = V_Pacientes::where( "{$PacientesTable}.id", '>', "0");
     $dt = new Hazzard\Support\DataTables($_GET, $columns, $query);

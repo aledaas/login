@@ -130,7 +130,7 @@ jQuery(function ($) {
                 },
                 null,null,
               null,
-                null,
+
                 {
                     searchable: false,
                     orderable: false,
