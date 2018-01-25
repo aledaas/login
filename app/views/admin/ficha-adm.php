@@ -101,7 +101,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
 		
 			$guardado=1;
 			
-			redirect_to('?p=pacientes', array('canjes_updated' => true));
+			redirect_to('?p=ficha', array('canjes_updated' => true));
 		} else {
 			$errors = new Hazzard\Support\MessageBag(array('error' => trans('errors.dbsave')));
 		}
