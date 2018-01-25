@@ -118,7 +118,7 @@ jQuery(function ($) {
                 data: {action: 'get_pacientes'}
             },
             language: EasyLogin.options.datatables,
-            order: [[1, 'desc']],
+         //   order: [[1, 'desc']],
             columns: [
                 {
                     orderable: false,
