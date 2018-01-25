@@ -87,6 +87,7 @@ if (isset($_POST['submit']) && csrf_filter()) {
     $rules = array(
         'nombre' => 'required',
         'apellido' => 'required',
+        'dni_nro' => 'required',
         'fec_pconsulta' => 'required|not_in:0',
        // 'id_especialidad'=> 'required',
     );
