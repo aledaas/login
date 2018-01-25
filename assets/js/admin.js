@@ -205,7 +205,7 @@ jQuery(function ($) {
                 data: {action: 'get_presupuestos'}
             },
             language: EasyLogin.options.datatables,
-            order: [[1, 'desc']],
+          //  order: [[1, 'desc']],
             columns: [
                 {
                     orderable: false,
@@ -215,7 +215,7 @@ jQuery(function ($) {
                         return '<input type="checkbox" name="presu[]" value="'+d+'" class="chb-select">';
                     }
                 },
-                null,null, null, null,null,null,
+                null,null, null, null,null,
                 {
                     searchable: false,
                     orderable: false,

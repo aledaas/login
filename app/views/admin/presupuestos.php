@@ -32,8 +32,7 @@
 		<thead>
 			<tr>
 				<th><input type="checkbox" class="select-all" value="1"></th>
-				<th>Nombre</th>
-				<th>Apellido</th>
+				<th>Apellido y Nombre</th>
 				<th>Estado</th>
 				<th>Fecha</th>
 				<th>Validez</th>
