@@ -67,6 +67,6 @@ $res = Presupuesto::join('pacientes', "presupuestos.paciente_id", '=', "paciente
        </TR>
        <TR>
            <TD>Observaciones: </TD>
-           <TD> <?php echo $res->Ovservaciones ?> </TD>
+           <TD> <?php echo $res->Observaciones ?> </TD>
        </TR>
    </table>
